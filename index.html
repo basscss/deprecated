@@ -1,0 +1,134 @@
+<!doctype html> 
+<html lang="en"> 
+<head>
+  <meta charset="utf-8">
+  <title>Table Object</title>
+  <meta name="author" content="Jxnblk">
+  <meta name="description" content="A simple CSS layout module to vertically center HTML elements">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Code+Pro" />
+  <link rel="stylesheet" href="site/style.css" />
+  <link rel="stylesheet" href="table-object.css" />
+</head>
+<body class="responsive p2 theme">
+
+<header class="py2">
+  <h1 class="h1">Table Object</h1>
+  <p class="p">For vertically aligning elements</p>
+</header>
+
+<section id="examples" class="py2">
+  <h1 class="h2">Examples</h1>
+  <p class="small mb2 mid-gray">Outlined for demonstration purposes</p>
+  <div class="p2 reverse rounded">
+    
+    <div class="table mb2 outline">
+      <div class="table-cell">
+        <h2 class="h2">Basic</h2>
+      </div>
+      <div class="table-cell">
+        <p>.table-cell</p>
+      </div>
+      <div class="table-cell">
+        <p>.table-cell</p>
+      </div>
+    </div>
+
+    <div class="table mb2 outline">
+      <div class="table-cell">
+        <h2 class="h2">Widths</h2>
+        <p>Add a width utility to any cell to control widths</p>
+      </div>
+      <div class="table-cell x25">
+        <p>.table-cell.x25</p>
+      </div>
+    </div>
+
+    <div class="table table-fixed mb2 outline">
+      <div class="table-cell">
+        <h2 class="h2">Fixed table</h2>
+        <p>Uses table-layout fixed to evenly space cells</p>
+      </div>
+      <div class="table-cell">
+        <p>.table-cell</p>
+      </div>
+      <div class="table-cell">
+        <p>.table-cell</p>
+      </div>
+      <div class="table-cell">
+        <p>.table-cell</p>
+      </div>
+    </div>
+
+    <div class="folding-table mb2 outline">
+      <div class="folding-table-cell">
+        <h2 class="h2">Folding Table</h2>
+        <p>Uses default div behavior at smaller viewport widths</p>
+      </div>
+      <div class="folding-table-cell">
+        <p>.table-cell</p>
+      </div>
+      <div class="folding-table-cell">
+        <p>.table-cell</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="css" class="py1">
+  <h1 class="h2 mb2">The CSS</h1>
+  <div class="folding-table py2 bg-light-gray rounded">
+    <pre class="folding-table-cell over-auto  px1">.table {
+  display: table;
+  width: 100%;
+}
+.table-fixed {
+  table-layout: fixed;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}</pre>
+    <pre class="folding-table-cell over-auto  px1">@media (min-width: 640px){
+  .folding-table {
+    display: table;
+    width: 100%;
+  }
+  .folding-table-fixed {
+    table-layout: fixed;
+  }
+  .folding-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}</pre>
+  </div>
+</section>
+
+<section id="usage" class="py2">
+  <h1 class="h2 mb2">Basic Usage</h1>
+    <pre class="p1 over-auto bg-light-gray rounded">&lt;div class=&quot;table&quot;&gt;
+  &lt;div class=&quot;table-cell&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;table-cell&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;table-cell&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;folding-table&quot;&gt;
+  &lt;div class=&quot;folding-table-cell&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;folding-table-cell&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;folding-table-cell&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+</section>
+
+<section id="notes" class="py2">
+  <h1 class="h2 mb2">Notes</h1>
+  <p class="p">It helps to know a little about how display table and table-cell works. This article is a good place to start: <a href="http://css-tricks.com/almanac/properties/d/display/">CSS-Tricks Display</a>.</p>
+</section>
+
+<footer class="py2">
+  <p class="small">Made with love by <a href="//jxnblk.com">Jxnblk</a>. Built with <a href="//jxnblk.github.io/basscss">BASSCSS</a>.</p>
+</footer>
+  
+</body>
+</html>
