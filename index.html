@@ -6,71 +6,56 @@
   <meta name="author" content="Jxnblk">
   <meta name="description" content="A simple CSS layout module to vertically center HTML elements">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Code+Pro" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600|Source+Code+Pro" />
   <link rel="stylesheet" href="site/style.css" />
   <link rel="stylesheet" href="table-object.css" />
 </head>
-<body class="responsive p2 theme">
+<body class="p2">
 
 <header class="py2">
-  <h1 class="h1">Table Object <span class="p caps mid-gray">beta</span></h1>
+  <h1 class="h1">Table Object</h1>
   <p class="p mb1">A simple CSS layout module to vertically center elements.</p>
-  <p><a href="//github.com/jxnblk/table-object">View on Github</a></p>
+  <p><a href="//github.com/jxnblk/table-object" class="button button-box-blue">View on Github</a></p>
 </header>
 
 <section id="examples" class="py2">
   <h1 class="h2">Examples</h1>
   <p class="small mb2 mid-gray">Outlined for demonstration purposes</p>
-  <div class="p2 reverse rounded">
+  <div class="p2 white bg-dark-gray rounded">
     
-    <div class="table mb2 outline">
-      <div class="table-cell">
+    <div class="table mb2 outline-mid-gray">
+      <div class="table-cell outline-mid-gray">
         <h2 class="h2">Basic</h2>
+        <p class="mb0">Only applies at screen widths larger than 40em</p>
       </div>
-      <div class="table-cell">
-        <p>.table-cell</p>
+      <div class="table-cell outline-mid-gray">
+        <p class="mb0">.table-cell</p>
       </div>
-      <div class="table-cell">
-        <p>.table-cell</p>
+      <div class="table-cell outline-mid-gray">
+        <p class="mb0">.table-cell</p>
       </div>
     </div>
 
-    <div class="table mb2 outline">
-      <div class="table-cell">
+    <div class="table mb2 outline-mid-gray">
+      <div class="table-cell outline-mid-gray">
         <h2 class="h2">Widths</h2>
-        <p>Add a width utility to any cell to control widths</p>
+        <p class="mb0">Add a width utility to any cell to control widths</p>
       </div>
-      <div class="table-cell x25">
-        <p>.table-cell.x25</p>
-      </div>
-    </div>
-
-    <div class="table table-fixed mb2 outline">
-      <div class="table-cell">
-        <h2 class="h2">Fixed table</h2>
-        <p>Uses table-layout fixed to evenly space cells</p>
-      </div>
-      <div class="table-cell">
-        <p>.table-cell</p>
-      </div>
-      <div class="table-cell">
-        <p>.table-cell</p>
-      </div>
-      <div class="table-cell">
-        <p>.table-cell</p>
+      <div class="table-cell x25 outline-mid-gray">
+        <p class="mb0">.table-cell.x25</p>
       </div>
     </div>
 
-    <div class="folding-table mb2 outline">
-      <div class="folding-table-cell">
-        <h2 class="h2">Folding Table</h2>
-        <p>Uses default div behavior at smaller viewport widths</p>
+    <div class="mobile-table mb2 outline-mid-gray">
+      <div class="mobile-table-cell outline-mid-gray">
+        <h2 class="h2">Mobile Table</h2>
+        <p class="mb0">Applies at all breakpoints</p>
       </div>
-      <div class="folding-table-cell">
-        <p>.table-cell</p>
+      <div class="mobile-table-cell outline-mid-gray">
+        <p class="mb0">.table-cell</p>
       </div>
-      <div class="folding-table-cell">
-        <p>.table-cell</p>
+      <div class="mobile-table-cell outline-mid-gray">
+        <p class="mb0">.table-cell</p>
       </div>
     </div>
 
@@ -79,8 +64,8 @@
 
 <section id="css" class="py1">
   <h1 class="h2 mb2">The CSS</h1>
-  <div class="folding-table py2 bg-light-gray rounded">
-    <pre class="folding-table-cell over-auto  px1">.table {
+  <div class="table py2 bg-light-gray rounded">
+    <pre class="table-cell px1">.table {
   display: table;
   width: 100%;
 }
@@ -91,15 +76,15 @@
   display: table-cell;
   vertical-align: middle;
 }</pre>
-    <pre class="folding-table-cell over-auto  px1">@media (min-width: 640px){
-  .folding-table {
+    <pre class="table-cell px1">@media (min-width: 640px){
+  .mobile-table {
     display: table;
     width: 100%;
   }
-  .folding-table-fixed {
+  .mobile-table-fixed {
     table-layout: fixed;
   }
-  .folding-table-cell {
+  .mobile-table-cell {
     display: table-cell;
     vertical-align: middle;
   }
@@ -115,10 +100,10 @@
   &lt;div class=&quot;table-cell&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;folding-table&quot;&gt;
-  &lt;div class=&quot;folding-table-cell&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;folding-table-cell&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;folding-table-cell&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;mobile-table&quot;&gt;
+  &lt;div class=&quot;mobile-table-cell&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;mobile-table-cell&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;mobile-table-cell&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;</pre>
 </section>
 
@@ -128,8 +113,8 @@
 </section>
 
 <footer class="py2">
-  <p class="h2 bold mb2"><a href="//github.com/jxnblk/table-object">View on Github</a></p>
-  <p class="small">Made with love by <a href="//jxnblk.com">Jxnblk</a>. Built with <a href="//jxnblk.github.io/basscss">BASSCSS</a>.</p>
+  <p><a href="//github.com/jxnblk/table-object" class="button button-box-blue">View on Github</a></p>
+  <p class="small">Made with love by <a href="//jxnblk.com">Jxnblk</a>.</p>
 </footer>
   
 </body>

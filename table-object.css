@@ -1,33 +1,30 @@
 /*
 
-    Table Object
+  Table Object
+  http://jxnblk.github.io/table-object
 
 
-*/
+ */
 
-.table {
+.mobile-table {
   display: table;
+  table-layout: fixed;
   width: 100%;
 }
-.table-fixed {
-  table-layout: fixed;
-}
-.table-cell {
+.mobile-table-cell {
   display: table-cell;
   vertical-align: middle;
 }
 
-
-@media (min-width: 640px){
-  .folding-table {
+@media (min-width: 40em){
+  .table {
     display: table;
+    table-layout: fixed;
     width: 100%;
   }
-  .folding-table-fixed {
-    table-layout: fixed;
-  }
-  .folding-table-cell {
+  .table-cell {
     display: table-cell;
     vertical-align: middle;
   }
 }
+
