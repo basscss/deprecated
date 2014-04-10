@@ -157,5 +157,16 @@ a {
 
 .outline { box-shadow: 0 0 0 1px $light-gray; }
 .outline-mid-gray { box-shadow: 0 0 0 1px $mid-gray; }
+.outline-blue { box-shadow: 0 0 0 1px $blue; }
 
+
+// Theme for pygments syntax highlighting
+.highlight {
+  color: $mid-gray;
+  line-height: 1.5rem;
+  .p { font-size: 1rem; line-height: 1.5rem; }
+  .nc, .s { color: darken($blue, 10%); }
+  .nt { color: $blue; }
+  .k, .m, .n { color: $blue; }
+}
 

@@ -9,6 +9,9 @@ pre, code, samp {
   font-family: 'Source Code Pro', monospace;
   font-size: 1rem;
 }
+pre {
+  overflow-x: scroll;
+}
 
 .serif { font-family: 'Merriweather', serif; }
 

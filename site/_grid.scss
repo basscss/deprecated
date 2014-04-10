@@ -21,9 +21,7 @@ $bp1: 40em;
 }
 
 .grid,
-.mobile-grid,
-.table-cell,
-.mobile-table-cell {
+.mobile-grid {
   box-sizing: border-box;
   padding-left: $gutter/2;
   padding-right: $gutter/2;
@@ -40,35 +38,12 @@ $bp1: 40em;
   }
 }
 
-// Mobile Table Object
-.mobile-table {
-  display: table;
-  width: 100%;
-}
-.mobile-table-fixed {
-  table-layout: fixed;
-}
-.mobile-table-cell {
-  display: table-cell;
-  vertical-align: middle;
-}
 
 // Padding reset to remove gutter
 .flush, .px0 { padding-right: 0; padding-left: 0; }
 
 // Desktop grid
 @media screen and (min-width: $bp1) {
-  .table {
-    display: table;
-    width: 100%;
-  }
-  .table-fixed {
-    table-layout: fixed;
-  }
-  .table-cell {
-    display: table-cell;
-    vertical-align: middle;
-  }
   .grid {
     float: left;
   }
