@@ -49,8 +49,12 @@ Add padding to any `.table-cell`. Do *not* add padding to the `.table` element.
 ```
 
 ## About
+I constantly run into situations where someone wants something vertically aligned in CSS.
+This is an attempt to create a highly reusable and flexible method for acheiving that.
 Inspired by Harry Robert's
-[Flag Object](http://csswizardry.com/2013/05/the-flag-object/).
+[Flag Object](http://csswizardry.com/2013/05/the-flag-object/)
+and Mark Otto's
+[Table Grid](http://mdo.github.io/table-grid/).
 
 ---
 
