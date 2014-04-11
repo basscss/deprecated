@@ -15,12 +15,12 @@
 </head>
 <body class="">
 
-<header class="table py2">
-  <div class="table-cell px2">
+<header class="table py1">
+  <div class="table-cell px-responsive py1">
     <h1 class="h1">Table Object</h1>
-    <p class="p mb1">For vertically centering elements</p>
+    <p class="p mb0">For vertically centering elements</p>
   </div>
-  <div class="right-align table-cell px2 mobile-center">
+  <div class="right-align table-cell px-responsive py1 mobile-center">
     <a href="//github.com/jxnblk/table-object" class="mr1 button button-box-blue">View on Github</a>
     <a href="https://twitter.com/intent/tweet?text=Vertically center elements with the Table Object&url=http://jxnblk.github.io/table-object&via=jxnblk"
       class="button button-box-blue">
@@ -32,60 +32,58 @@
   </div>
 </header>
 
-<section id="examples" class="p2">
+<section id="examples" class="px-responsive py2">
   <h1 class="h2">Examples</h1>
-  <div class="p2 white bg-dark-gray rounded">
-    <div class="table mb2">
-      <div class="table-cell outline-blue">
+    <div class="table mt2 mb2 white">
+      <div class="table-cell py4 bg-dark-gray">
         <h2 class="h2">Basic</h2>
         <p class="mb0">Only applies at screen widths larger than 40em</p>
       </div>
-      <div class="table-cell outline-blue">
+      <div class="table-cell bg-mid-gray">
         <p class="mb0">.table-cell</p>
       </div>
-      <div class="table-cell outline-blue">
+      <div class="table-cell bg-dark-gray">
         <p class="mb0">.table-cell</p>
       </div>
     </div>
 
-    <div class="table mb2">
-      <div class="table-cell outline-blue">
+    <div class="table mb2 white">
+      <div class="table-cell py2 bg-mid-gray">
         <h2 class="h2">Widths</h2>
         <p class="mb0">Add a width utility to any cell to control widths</p>
       </div>
-      <div class="table-cell grid-3 outline-blue">
+      <div class="table-cell grid-3 bg-dark-gray">
         <p class="mb0">.table-cell.grid-3</p>
       </div>
     </div>
 
-    <div class="table mb2">
-      <div class="table-cell outline-blue">
+    <div class="table mb2 white">
+      <div class="table-cell px2 py1 bg-dark-gray">
         <h2 class="h2">Padding</h2>
         <p class="mb0">Add padding to any cell</p>
       </div>
-      <div class="table-cell px2 outline-blue">
+      <div class="table-cell px2 bg-mid-gray">
         <p class="mb0">.table-cell.px2</p>
       </div>
     </div>
 
-    <div class="mobile-table mb2">
-      <div class="mobile-table-cell outline-blue">
+    <div class="mobile-table mb2 white">
+      <div class="mobile-table-cell py1 bg-mid-gray">
         <h2 class="h2">Mobile Table</h2>
         <p class="mb0">Applies at all breakpoints</p>
       </div>
-      <div class="mobile-table-cell outline-blue">
+      <div class="mobile-table-cell bg-dark-gray">
         <p class="mb0">.table-cell</p>
       </div>
-      <div class="mobile-table-cell outline-blue">
+      <div class="mobile-table-cell bg-mid-gray">
         <p class="mb0">.table-cell</p>
       </div>
     </div>
 
-  </div>
 </section>
 
 <div class="table py2">
-  <section id="usage" class="table-cell p2">
+  <section id="usage" class="table-cell px-responsive py2">
     <h1 class="h2 mb2">Basic Usage</h1>
     <div class="p1 bg-light-gray">
 {% highlight html %}
@@ -103,7 +101,7 @@
 {% endhighlight %}
     </div>
   </section>
-  <section id="css" class="table-cell p2">
+  <section id="css" class="table-cell px-responsive py2">
     <h1 class="h2 mb2">The CSS</h1>
     <div class="p1 bg-light-gray rounded">
 {% highlight css %}
@@ -132,18 +130,22 @@
   </section>
 </div>
 
-<section id="notes" class="p2">
-  <h1 class="h2 mb2">Notes</h1>
+<section id="notes" class="px-responsive py2">
+  <h1 class="h2 mb2">About</h1>
+  <p>
+    I constantly run into situations where someone wants something vertically aligned in CSS.<br class="mobile-hide">
+    This is an attempt to create a highly reusable and flexible method for acheiving that.
+  </p>
   <p class="mb0">
     Inspired by Harry Robert's
     <a href="http://csswizardry.com/2013/05/the-flag-object/">Flag Object</a>
     and Mark Otto's 
     <a href="http://mdo.github.io/table-grid/">Table Grid</a>.
   </p>
-  <p>It helps to know a little about how display table and table-cell works. This article is a good place to start: <a href="http://css-tricks.com/almanac/properties/d/display/">CSS-Tricks Display</a>.</p>
+  <p>To learn more about display table, I recommend reading this: <a href="http://css-tricks.com/almanac/properties/d/display/">CSS-Tricks Display</a>.</p>
 </section>
 
-<footer class="p2">
+<footer class="px-responsive py2">
   <p>
     <a href="//github.com/jxnblk/table-object" class="mr1 button button-box-blue">View on Github</a>
     <a href="https://twitter.com/intent/tweet?text=Vertically center elements with the Table Object&url=http://jxnblk.github.io/table-object&via=jxnblk"
