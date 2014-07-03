@@ -59,6 +59,19 @@
       </div>
     </div>
 
+    <div class="table table-fixed mb2 white">
+      <div class="table-cell py2 bg-mid-gray">
+        <h2 class="h2">Even Spacing</h2>
+        <p class="mb0">Using table-layout fixed</p>
+      </div>
+      <div class="table-cell bg-dark-gray">
+        .table-cell
+      </div>
+      <div class="table-cell bg-mid-gray">
+        .table-cell
+      </div>
+    </div>
+
     <div class="table mb2 white">
       <div class="table-cell px2 py1 bg-dark-gray">
         <h2 class="h2">Padding</h2>
@@ -109,7 +122,6 @@
 {% highlight css %}
 .mobile-table {
   display: table;
-  table-layout: fixed;
   width: 100%;
 }
 .mobile-table-cell {
@@ -119,13 +131,15 @@
 @media (min-width: 40em){
   .table {
     display: table;
-    table-layout: fixed;
     width: 100%;
   }
   .table-cell {
     display: table-cell;
     vertical-align: middle;
   }
+}
+.table-fixed {
+  table-layout: fixed;
 }
 {% endhighlight %}
     </div>
