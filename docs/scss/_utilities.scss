@@ -22,7 +22,7 @@
   display: none;
 }
 
-@media screen and (max-width: 48em) {
+@media (max-width: 36em) {
   .mobile-show,
   .mobile-block {
     display: block;
@@ -37,4 +37,5 @@
     text-align: center;
   }
 }
+
 

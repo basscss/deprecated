@@ -2,7 +2,7 @@
 
 .button {
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
   border: none;
@@ -11,9 +11,9 @@
   white-space: nowrap;
   display: inline-block;
   line-height: 2rem;
-  padding: .5rem 1rem;
-
-  // Add optional FF hack
+  height: auto;
+  min-height: 2rem;
+  padding: 0.25rem 1rem;
 }
 
 .button-big { padding: 1rem 1.5rem; }
