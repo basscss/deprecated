@@ -1,4 +1,3 @@
-/* Grid Medium */
 
 @media (--breakpoint-md) {
 
@@ -51,13 +50,6 @@
     box-sizing: border-box;
     width: calc(11/12 * 100%);
   }
-
-  /*
-  .md-col-12 {
-    box-sizing: border-box;
-    width: calc(12/12 * 100%);
-  }
-  */
 
 }
 
