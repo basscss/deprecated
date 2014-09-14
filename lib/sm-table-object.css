@@ -1,11 +1,11 @@
 
 @media (--breakpoint-sm) {
 
-  .md-table {
+  .sm-table {
     display: table;
     width: 100%;
   }
-  .md-table-cell {
+  .sm-table-cell {
     display: table-cell;
     vertical-align: middle;
   }
