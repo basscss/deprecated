@@ -33,6 +33,11 @@
 
   .sm-col-7 {
     box-sizing: border-box;
+    width: calc(7/12 * 100%);
+  }
+
+  .sm-col-8 {
+    box-sizing: border-box;
     width: calc(8/12 * 100%);
   }
 
