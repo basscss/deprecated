@@ -1,58 +1,52 @@
 
 @media (--breakpoint-md) {
 
-  .md-col-1 {
+  .md-col {
+    float: left;
     box-sizing: border-box;
+  }
+
+  .md-col-1 {
     width: calc(1/12 * 100%);
   }
 
   .md-col-2 {
-    box-sizing: border-box;
     width: calc(2/12 * 100%);
   }
 
   .md-col-3 {
-    box-sizing: border-box;
     width: calc(3/12 * 100%);
   }
 
   .md-col-4 {
-    box-sizing: border-box;
     width: calc(4/12 * 100%);
   }
 
   .md-col-5 {
-    box-sizing: border-box;
     width: calc(5/12 * 100%);
   }
 
   .md-col-6 {
-    box-sizing: border-box;
     width: calc(6/12 * 100%);
   }
 
   .md-col-7 {
-    box-sizing: border-box;
     width: calc(7/12 * 100%);
   }
 
   .md-col-8 {
-    box-sizing: border-box;
     width: calc(8/12 * 100%);
   }
 
   .md-col-9 {
-    box-sizing: border-box;
     width: calc(9/12 * 100%);
   }
 
   .md-col-10 {
-    box-sizing: border-box;
     width: calc(10/12 * 100%);
   }
 
   .md-col-11 {
-    box-sizing: border-box;
     width: calc(11/12 * 100%);
   }
 
