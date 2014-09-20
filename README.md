@@ -1,4 +1,4 @@
 # BASSCSS Grid
 
-Grid module for BASSCSS for use with Rework.
+Grid layout module for BASSCSS for use with Rework.
 
