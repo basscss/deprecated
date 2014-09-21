@@ -1,6 +1,6 @@
 {
   "name": "basscss-table-object",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple CSS layout module for vertically centering elements.",
   "repository": {
     "type": "git",

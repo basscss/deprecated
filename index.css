@@ -3,7 +3,11 @@
   Table Object
   http://jxnblk.github.io/table-object
 
- */
+*/
+
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
 
 @import "./lib/table-object.css";
 @import "./lib/sm-table-object.css";
