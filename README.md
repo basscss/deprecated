@@ -26,7 +26,6 @@ To edit these defaults, define new custom media queries afer importing basscss-u
 
 ---
 
-# Using this Modules
 
 ## Basic Usage
 
