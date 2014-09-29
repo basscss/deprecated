@@ -1,7 +1,32 @@
-# Table Object
-A simple CSS layout module to vertically center elements
+# Basscss Table Object
+CSS layout module to vertically center elements for use with Rework.
 
-http://jxnblk.github.io/table-object
+http://basscss.com
+
+## Usage
+
+Compile with Rework, using the following plugins:
+- [rework-npm](https://github.com/reworkcss/rework-npm)
+- [rework-custom-media](https://github.com/reworkcss/rework-custom-media/)
+
+Basscss Table Object also works with:
+- [Basswork](https://github.com/jxnblk/basswork)
+- [Suitcss Preprocessor](https://github.com/suitcss/preprocessor)
+
+# Defaults
+
+## Custom Media Queries
+To edit these defaults, define new custom media queries afer importing basscss-utilities.
+
+```css
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+```
+
+---
+
+# Using this Modules
 
 ## Basic Usage
 
@@ -33,8 +58,8 @@ Add padding to any `.table-cell`. Do *not* add padding to the `.table` element.
 
 ``` html
 <div class="table">
-  <div class="table-cell pad">Padded</div>
-  <div class="table-cell pad">Padded</div>
+  <div class="table-cell px2">Padded</div>
+  <div class="table-cell px2">Padded</div>
 </div>
 ```
 
@@ -42,6 +67,4 @@ Add padding to any `.table-cell`. Do *not* add padding to the `.table` element.
 
 ## License
 The MIT License (MIT)
-
-Copyright (c) 2014 Brent Jackson
 
