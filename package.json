@@ -1,6 +1,6 @@
 {
   "name": "basscss-grid",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "CSS grid module for BASSCSS",
   "author": "Brent Jackson",
   "license": "MIT"
