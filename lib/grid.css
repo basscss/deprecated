@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.col-right {
+  float: right;
+  box-sizing: border-box;
+}
+
 .col-1 {
   width: calc(1/12 * 100%);
 }

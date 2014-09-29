@@ -6,6 +6,11 @@
     box-sizing: border-box;
   }
 
+  .lg-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+
   .lg-col-1 {
     width: calc(1/12 * 100%);
   }
