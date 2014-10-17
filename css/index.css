@@ -118,6 +118,16 @@
           order: 1024;
 }
 
+.cell-0 {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
 .cell-1 {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
