@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Basscss Flex Object</title>
+  <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.1.3/basscss.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <style>
+    .aspect-1-1 { height: 0; padding-bottom: 100% }
+    .aspect-4-3 { height: 0; padding-bottom: 75% }
+  </style>
+</head>
+<body class="container p2">
+
+  <header class="py2">
+    <h1>Flex Object</h1>
+  </header>
+
+  <h1>Flex Columns</h1>
+  <div class="flex mxn2">
+    <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Flex Cell </div> </div>
+    <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Flex Cell </div> </div>
+    <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Flex Cell </div> </div>
+    <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Flex Cell </div> </div>
+  </div>
+
+  <h1>Flex Align Center</h1>
+  <div class="flex flex-align-center mxn2">
+    <div class="cell p2 col-6"> <div class="aspect-4-3 p2 white bg-blue rounded"> Flex Cell </div> </div>
+    <div class="cell p2 col-3"> <div class="aspect-1-1 p2 white bg-blue rounded"> Flex Cell </div> </div>
+    <div class="cell p2 col-3"> <div class="p2 white bg-blue rounded"> Flex Cell </div> </div>
+  </div>
+
+  <!--
+    Demos:
+    - flex-column
+    - flex-reverse
+    - flex-wrap
+    - first, last
+    - grow, 1, 2, 3, 4
+    - align start, center, end, baseline, stretch
+    - justify start, end, center, between, around
+  -->
+
+  <!--
+  For testing grid alignment
+  <div class="clearfix mxn2">
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
+  </div>
+  -->
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "flex-object",
+  "version": "0.0.1",
+  "description": "CSS module based on flexbox",
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-basswork": "0.0.9"
+  }
+}
