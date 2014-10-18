@@ -1,7 +1,7 @@
 {
   "name": "flex-object",
   "version": "0.0.1",
-  "description": "CSS module based on flexbox",
+  "description": "CSS layout module based on flexbox",
   "author": "Brent Jackson",
   "license": "MIT",
   "devDependencies": {
