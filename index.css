@@ -7,4 +7,7 @@
 @custom-media --breakpoint-lg (min-width: 64em);
 
 @import "./lib/flex.css";
+@import "./lib/sm-flex.css";
+@import "./lib/md-flex.css";
+@import "./lib/lg-flex.css";
 

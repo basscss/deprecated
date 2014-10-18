@@ -25,8 +25,8 @@
     </div>
   </header>
 
-  <h1>Flex Grid Widths</h1>
-  <div class="flex xflex-justify-between mxn2 bold">
+  <h1>Flex & Grid Widths</h1>
+  <div class="flex mxn2 center bold">
     <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .col-3 </div> </div>
     <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .col-3 </div> </div>
     <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .col-3 </div> </div>
@@ -34,7 +34,7 @@
   </div>
 
   <h1>Nested Flex Columns</h1>
-  <div class="flex mxn2 bold">
+  <div class="flex mxn2 center bold">
     <div class="flex flex-column col-6">
       <div class="cell m2 p2 white bg-blue rounded"> Cell A </div>
       <div class="cell m2 p2 white bg-blue rounded"> Cell B </div>
@@ -49,8 +49,8 @@
     </div>
   </div>
 
-  <h1>Flex Column & Wrap</h1>
-  <div class="flex flex-column flex-wrap mxn2" style="height:11rem">
+  <h1>Column & Wrap</h1>
+  <div class="flex flex-column flex-wrap mxn2 center" style="height:11rem">
     <div class="cell m2 px2 py4 white bg-blue rounded"> Cell A </div>
     <div class="cell m2 p2 white bg-blue rounded"> Cell B </div>
     <div class="cell m2 p2 white bg-blue rounded"> Cell C </div>
@@ -58,16 +58,16 @@
     <div class="cell m2 p2 white bg-blue rounded"> Cell E </div>
   </div>
 
-  <h1>Flex Reverse</h1>
-  <div class="flex flex-reverse mxn2 bold">
+  <h1>Reverse</h1>
+  <div class="flex flex-reverse mxn2 center bold">
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell A </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell B </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell C </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell D </div>
   </div>
 
-  <h1>Flex Wrap</h1>
-  <div class="flex flex-wrap mxn2 bold">
+  <h1>Wrap</h1>
+  <div class="flex flex-wrap mxn2 center bold">
     <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Cell A </div> </div>
     <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Cell B </div> </div>
     <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Cell C </div> </div>
@@ -76,8 +76,10 @@
     <div class="cell col-3 p2"> <div class="p2 white bg-blue rounded"> Cell F </div> </div>
   </div>
 
+  <hr>
+
   <h1>First</h1>
-  <div class="flex mxn2 bold">
+  <div class="flex mxn2 center bold">
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell A </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell B </div>
     <div class="cell cell-first col-3 m2 p2 white bg-blue rounded"> Cell C First </div>
@@ -85,7 +87,7 @@
   </div>
 
   <h1>Last</h1>
-  <div class="flex mxn2 bold">
+  <div class="flex mxn2 center bold">
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell A </div>
     <div class="cell cell-last col-3 m2 p2 white bg-blue rounded"> Cell B Last </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell C </div>
@@ -93,23 +95,48 @@
   </div>
 
   <h1>First & Last</h1>
-  <div class="flex mxn2 bold">
+  <div class="flex mxn2 center bold">
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell A </div>
     <div class="cell cell-last col-3 m2 p2 white bg-blue rounded"> Cell B Last </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell C </div>
     <div class="cell cell-first col-3 m2 p2 white bg-blue rounded"> Cell C First </div>
   </div>
 
+  <hr>
+
   <h1>Grow</h1>
-  <div class="flex mxn2 bold">
+  <div class="flex mxn2 center bold">
     <div class="cell cell-1 m2 p2 white bg-blue rounded"> Cell A .cell-1 </div>
-    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell B </div>
-    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell C </div>
-    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell D </div>
+    <div class="cell m2 p2 white bg-blue rounded"> Cell B </div>
+    <div class="cell m2 p2 white bg-blue rounded"> Cell C </div>
+    <div class="cell m2 p2 white bg-blue rounded"> Cell D </div>
   </div>
 
+  <div class="flex mxn2 center bold">
+    <div class="cell cell-1 m2 p2 white bg-blue rounded"> Cell A .cell-1 </div>
+    <div class="cell cell-2 m2 p2 white bg-blue rounded"> Cell B .cell-2 </div>
+    <div class="cell m2 p2 white bg-blue rounded"> Cell C </div>
+    <div class="cell m2 p2 white bg-blue rounded"> Cell D </div>
+  </div>
+
+  <div class="flex mxn2 center bold">
+    <div class="cell cell-1 m2 p2 white bg-blue rounded"> Cell A .cell-1 </div>
+    <div class="cell cell-3 m2 p2 white bg-blue rounded"> Cell B .cell-3 </div>
+    <div class="cell m2 p2 white bg-blue rounded"> Cell C </div>
+    <div class="cell m2 p2 white bg-blue rounded"> Cell D </div>
+  </div>
+
+  <div class="flex mxn2 center bold">
+    <div class="cell cell-1 m2 p2 white bg-blue rounded"> Cell A .cell-1 </div>
+    <div class="cell cell-4 m2 p2 white bg-blue rounded"> Cell B .cell-4 </div>
+    <div class="cell m2 p2 white bg-blue rounded"> Cell C </div>
+    <div class="cell m2 p2 white bg-blue rounded"> Cell D </div>
+  </div>
+
+  <hr>
+
   <h1>Align Start</h1>
-  <div class="flex flex-align-start mxn2 bold">
+  <div class="flex flex-align-start mxn2 center bold">
     <div class="cell col-3 m2 px2 py4 white bg-blue rounded"> Cell A </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell B </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell C </div>
@@ -117,7 +144,7 @@
   </div>
 
   <h1>Align End</h1>
-  <div class="flex flex-align-end mxn2 bold">
+  <div class="flex flex-align-end mxn2 center bold">
     <div class="cell col-3 m2 px2 py4 white bg-blue rounded"> Cell A </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell B </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell C </div>
@@ -125,7 +152,7 @@
   </div>
 
   <h1>Align Center</h1>
-  <div class="flex flex-align-center mxn2 bold">
+  <div class="flex flex-align-center mxn2 center bold">
     <div class="cell col-3 m2 px2 py4 white bg-blue rounded"> Cell A </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell B </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell C </div>
@@ -133,7 +160,7 @@
   </div>
 
   <h1>Align Baseline</h1>
-  <div class="flex flex-align-baseline mxn2 bold">
+  <div class="flex flex-align-baseline mxn2 center bold">
     <div class="cell col-3 m2 px2 py4 white bg-blue rounded"> Cell A </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell B </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell C </div>
@@ -141,41 +168,84 @@
   </div>
 
   <h1>Align Stretch</h1>
-  <div class="flex flex-align-stretch mxn2 bold">
+  <div class="flex flex-align-stretch mxn2 center bold">
     <div class="cell col-3 m2 px2 py4 white bg-blue rounded"> Cell A </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell B </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell C </div>
     <div class="cell col-3 m2 p2 white bg-blue rounded"> Cell D </div>
   </div>
 
-  <!--
-    Demos:
-    - flex-column
-    - flex-reverse
-    - flex-wrap
-    - first, last
-    - grow, 1, 2, 3, 4
-    - align start, center, end, baseline, stretch
-    - justify start, end, center, between, around
-  -->
+  <hr>
+
+  <h1>Justify Start</h1>
+  <div class="flex flex-justify-start mxn2 center bold">
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell A </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell B </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell C </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell D </div>
+  </div>
+
+  <h1>Justify End</h1>
+  <div class="flex flex-justify-end mxn2 center bold">
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell A </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell B </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell C </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell D </div>
+  </div>
+
+  <h1>Justify Center</h1>
+  <div class="flex flex-justify-center mxn2 center bold">
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell A </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell B </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell C </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell D </div>
+  </div>
+
+  <h1>Justify Between</h1>
+  <div class="flex flex-justify-between mxn2 center bold">
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell A </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell B </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell C </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell D </div>
+  </div>
+
+  <h1>Justify Around</h1>
+  <div class="flex flex-justify-around mxn2 center bold">
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell A </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell B </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell C </div>
+    <div class="cell col-2 m2 p2 white bg-blue rounded"> Cell D </div>
+  </div>
+
+  <hr>
+
+  <h1>Breakpoints</h1>
+  <div class="sm-flex mxn2 center bold">
+    <div class="sm-cell sm-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .sm-cell </div> </div>
+    <div class="sm-cell sm-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .sm-cell </div> </div>
+    <div class="sm-cell sm-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .sm-cell </div> </div>
+    <div class="sm-cell sm-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .sm-cell </div> </div>
+  </div>
+
+  <div class="md-flex mxn2 center bold">
+    <div class="md-cell md-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .md-cell </div> </div>
+    <div class="md-cell md-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .md-cell </div> </div>
+    <div class="md-cell md-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .md-cell </div> </div>
+    <div class="md-cell md-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .md-cell </div> </div>
+  </div>
+
+  <div class="lg-flex mxn2 center bold">
+    <div class="lg-cell lg-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .lg-cell </div> </div>
+    <div class="lg-cell lg-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .lg-cell </div> </div>
+    <div class="lg-cell lg-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .lg-cell </div> </div>
+    <div class="lg-cell lg-col-3 p2"> <div class="p2 white bg-blue rounded"> Cell .lg-cell </div> </div>
+  </div>
 
   <!--
-  For testing grid alignment
-  <div class="clearfix mxn2">
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-    <div class="col col-1 px2"> <div class="p2 white bg-light-gray">col-1</div> </div>
-  </div>
+    Demos:
+    - grow, 1, 2, 3, 4
   -->
+
 
   <footer class="h5 py4 ">
     <p>
