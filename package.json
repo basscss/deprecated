@@ -1,6 +1,6 @@
 {
   "name": "flex-object",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CSS layout module based on flexbox",
   "style": "index.css",
   "author": "Brent Jackson",
