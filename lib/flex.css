@@ -1,6 +1,18 @@
 
 .flex { display: flex }
 
+@media (--breakpoint-sm) {
+  .sm-flex { display: flex }
+}
+
+@media (--breakpoint-md) {
+  .md-flex { display: flex }
+}
+
+@media (--breakpoint-lg) {
+  .lg-flex { display: flex }
+}
+
 .flex-column  { flex-direction: column }
 .flex-reverse { flex-direction: row-reverse }
 .flex-wrap    { flex-wrap: wrap }
@@ -17,22 +29,14 @@
 .flex-align-baseline { align-items: baseline }
 .flex-align-stretch  { align-items: stretch }
 
+.flex-first, .cell-first { order: -1 }
+.flex-last,  .cell-last  { order: 1024 }
 
+.flex-0, .cell-0 { flex-grow: 0; flex-shrink: 0; }
+.flex-1, .cell-1 { flex-grow: 1 }
+.flex-2, .cell-2 { flex-grow: 2 }
+.flex-3, .cell-3 { flex-grow: 3 }
+.flex-4, .cell-4 { flex-grow: 4 }
+
+.flex > *,
 .cell { box-sizing: border-box }
-
-.cell-first { order: -1 }
-.cell-last  { order: 1024 }
-
-.cell-0 { flex-grow: 0; flex-shrink: 0; }
-.cell-1 { flex-grow: 1 }
-.cell-2 { flex-grow: 2 }
-.cell-3 { flex-grow: 3 }
-.cell-4 { flex-grow: 4 }
-
-
-/* Might not be necessary
-.cell-col { flex-grow: 0; flex-shrink: 0; }
-.cell.col-1 { flex-basis: calc( 1 / 12 * 100% ) }
-.cell.col-2 { flex-basis: calc( 2 / 12 * 100% ) }
- * */
-
