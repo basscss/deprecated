@@ -10,9 +10,9 @@
   --container-width: 64em;
 }
 
-@import "./lib/container.css";
-@import "./lib/grid.css";
-@import "./lib/sm-grid.css";
-@import "./lib/md-grid.css";
-@import "./lib/lg-grid.css";
+@import "./lib/container";
+@import "./lib/grid";
+@import "./lib/sm-grid";
+@import "./lib/md-grid";
+@import "./lib/lg-grid";
 
