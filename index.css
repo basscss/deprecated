@@ -9,8 +9,8 @@
 @custom-media --breakpoint-md (min-width: 52em);
 @custom-media --breakpoint-lg (min-width: 64em);
 
-@import "./lib/table-object.css";
-@import "./lib/sm-table-object.css";
-@import "./lib/md-table-object.css";
-@import "./lib/lg-table-object.css";
+@import "./lib/table-object";
+@import "./lib/sm-table-object";
+@import "./lib/md-table-object";
+@import "./lib/lg-table-object";
 
