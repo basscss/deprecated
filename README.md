@@ -1,17 +1,7 @@
 # Basscss Table Object
-CSS layout module to vertically center elements for use with Rework.
+CSS layout module to vertically center elements for Basscss.
 
 http://basscss.com
-
-## Usage
-
-Compile with Rework, using the following plugins:
-- [rework-npm](https://github.com/reworkcss/rework-npm)
-- [rework-custom-media](https://github.com/reworkcss/rework-custom-media/)
-
-Basscss Table Object also works with:
-- [Basswork](https://github.com/jxnblk/basswork)
-- [Suitcss Preprocessor](https://github.com/suitcss/preprocessor)
 
 # Defaults
 
