@@ -1,0 +1,11 @@
+
+.button-nav-light {}
+
+.button-nav-light:hover {
+  background-color: var(--darken-1);
+}
+.button-nav-light:active,
+.button-nav-light.is-active {
+  color: var(--dark-gray);
+}
+
