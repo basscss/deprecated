@@ -1,0 +1,32 @@
+/* Basscss Base Buttons */
+
+button,
+.button {
+  font-weight: var(--bold-font-weight);
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  line-height: 1.125;
+  padding: .5em var(--space-2);
+  margin: 0;
+  height: auto;
+  border: 1px solid transparent;
+  -webkit-appearance: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.button:hover { text-decoration: none }
+
+:root {
+  --bold-font-weight: bold;
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 2rem;
+  --space-4: 4rem;
+}
+
