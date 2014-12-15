@@ -1,7 +1,7 @@
 {
   "name": "basscss-utility-white-space",
   "version": "0.0.1",
-  "description": "module for BASSCSS",
+  "description": "White space margin and padding utilities module for Basscss",
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/basscss-utility-white-space.git"
