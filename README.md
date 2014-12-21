@@ -119,59 +119,6 @@ To align child elements to the bottom, use the `.flex-end` utility.
 </div>
 ```
 
-## Justification
-To control how the white space between and around elements is handled, use the justify utilities.
-
-### .flex-justify-start
-```html:example
-<div class="flex flex-justify-start">
-  <a href="#" class="button button-blue-outline">Home</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-</div>
-```
-
-### .flex-justify-end
-```html:example
-<div class="flex flex-justify-end">
-  <a href="#" class="button button-blue-outline">Home</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-</div>
-```
-
-### .flex-justify-center
-```html:example
-<div class="flex flex-justify-center">
-  <a href="#" class="button button-blue-outline">Home</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-</div>
-```
-
-### .flex-justify-around
-```html:example
-<div class="flex flex-justify-around">
-  <a href="#" class="button button-blue-outline">Home</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-</div>
-```
-
-### .flex-justify-between
-```html:example
-<div class="flex flex-justify-between">
-  <a href="#" class="button button-blue-outline">Home</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-  <a href="#" class="button button-blue-outline">Nav Item</a>
-</div>
-```
-
 ## Responsive Utilities
 To set display flex only at certain breakpoints and up,
 use the breakpoint-prefixed versions of `.flex`.
@@ -239,6 +186,30 @@ To prevent an element from growing or shrinking, use the `.flex-none` utility.
 </div>
 ```
 
+## Ordering
+To change the order of child elements, use the `.flex-first` and `.flex-last` utilities.
+
+### .flex-first
+```html:example
+<div class="flex">
+  <a href="#" class="button button-blue">Nav Item</a>
+  <a href="#" class="button button-blue">Nav Item</a>
+  <a href="#" class="flex-first button button-blue">Nav Item First</a>
+  <a href="#" class="button button-blue">Nav Item</a>
+</div>
+```
+
+### .flex-last
+```html:example
+<div class="flex">
+  <a href="#" class="button button-blue">Nav Item</a>
+  <a href="#" class="button button-blue">Nav Item</a>
+  <a href="#" class="flex-last button button-blue">Nav Item Last</a>
+  <a href="#" class="button button-blue">Nav Item</a>
+</div>
+```
+
+
 
 ## Parent Element Utilities
 
@@ -251,11 +222,6 @@ To prevent an element from growing or shrinking, use the `.flex-none` utility.
 .flex-stretch  { align-items: stretch }
 .flex-start    { align-items: flex-start }
 .flex-end      { align-items: flex-end }
-.flex-justify-start   { justify-content: flex-start }
-.flex-justify-end     { justify-content: flex-end }
-.flex-justify-center  { justify-content: center }
-.flex-justify-around  { justify-content: space-around }
-.flex-justify-between { justify-content: space-between }
 ```
 
 ## Child Element Utilities

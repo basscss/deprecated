@@ -5,7 +5,7 @@ var basswork = require('gulp-basswork');
 var rename = require('gulp-rename');
 var mincss = require('gulp-minify-css');
 var marked = require('gulp-marked');
-var markedExample = require('../marked-example');
+var markedExample = require('marked-example');
 var header = require('gulp-header');
 var footer = require('gulp-footer');
 
