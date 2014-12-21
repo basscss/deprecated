@@ -11,7 +11,7 @@ but can also be combined with the Basscss grid for even more possibilities.
 ## .flex
 To begin, add the `.flex` class to a parent element.
 This sets the element to `display: flex` and enables a flex context for all direct child elements.
-```html:example
+```html
 <div class="flex">
   <a href="#" class="button">Link</a>
   <a href="#" class="button">Link</a>
@@ -20,7 +20,7 @@ This sets the element to `display: flex` and enables a flex context for all dire
 
 ## .flex-wrap
 To wrap elements, use the `.flex-wrap` utility.
-```html:example
+```html
 <div class="flex flex-wrap">
   <a href="#" class="button">Home</a>
   <a href="#" class="button">Nav Item</a>
@@ -35,7 +35,7 @@ To wrap elements, use the `.flex-wrap` utility.
 
 ## .flex-column
 To arrange items vertically, use the `.flex-column` utility.
-```html:example
+```html
 <div class="flex flex-column">
   <div class="p1 blue border">Row</div>
   <div class="p1 blue border">Row</div>
@@ -48,7 +48,7 @@ Use these utilities to control vertical alignment of child elements.
 
 ### .flex-center
 To vertically center child elements, add the `.flex-center` class to the parent element.
-```html:example
+```html
 <div class="flex flex-center">
   <div class="flex-auto px2 py4 blue border">
     <h1 class="m0">Big</h1>
@@ -59,7 +59,7 @@ To vertically center child elements, add the `.flex-center` class to the parent 
 
 ### .flex-stretch
 To stretch all elements to fill the height of the parent, use the `.flex-stretch` utility.
-```html:example
+```html
 <div class="flex flex-stretch">
   <div class="flex-auto px2 py4 blue border">
     <h1 class="m0">Big</h1>
@@ -70,7 +70,7 @@ To stretch all elements to fill the height of the parent, use the `.flex-stretch
 
 ### .flex-stretch with nested content
 To ensure nested elements stretch as well, add the `.flex` class to relevant elements.
-```html:example
+```html
 <div class="flex flex-stretch">
   <div class="flex-auto px2 py4 blue border">
     <h1 class="m0">Big</h1>
@@ -86,7 +86,7 @@ To ensure nested elements stretch as well, add the `.flex` class to relevant ele
 ### .flex-baseline
 To align child elements to their baseline, use the `.flex-baseline` utility.
 
-```html:example
+```html
 <div class="flex flex-baseline blue border-bottom">
   <div class="flex-auto px2">
     <h1 class="m0">Big</h1>
@@ -98,7 +98,7 @@ To align child elements to their baseline, use the `.flex-baseline` utility.
 ### .flex-start
 To align child elements to the top, use the `.flex-start` utility.
 
-```html:example
+```html
 <div class="flex flex-start blue border-top">
   <div class="flex-auto px2">
     <h1 class="m0">Big</h1>
@@ -110,7 +110,7 @@ To align child elements to the top, use the `.flex-start` utility.
 ### .flex-end
 To align child elements to the bottom, use the `.flex-end` utility.
 
-```html:example
+```html
 <div class="flex flex-end blue border-bottom">
   <div class="flex-auto px2">
     <h1 class="m0">Big</h1>
@@ -124,7 +124,7 @@ To set display flex only at certain breakpoints and up,
 use the breakpoint-prefixed versions of `.flex`.
 All other utilities will only work at the set breakpoint.
 
-```html:example
+```html
 <div class="sm-flex flex-center mb2 blue">
   <div class="border">
     <h2 class="m0">.sm-flex</h2>
@@ -153,7 +153,7 @@ To control the size and behavior of child elements, use these utilities.
 
 ### .flex-auto
 To make an element grow or shrink as needed, use the `.flex-auto` utility.
-```html:example
+```html
 <div class="flex">
   <a href="#" class="button button-nav-light">Home</a>
   <a href="#" class="button button-nav-light">Nav Item</a>
@@ -165,7 +165,7 @@ To make an element grow or shrink as needed, use the `.flex-auto` utility.
 
 ### .flex-grow
 To make an element grow, but not shrink, use the `.flex-auto` utility.
-```html:example
+```html
 <div class="flex">
   <a href="#" class="button button-nav-light">Home</a>
   <a href="#" class="button button-nav-light">Nav Item</a>
@@ -177,7 +177,7 @@ To make an element grow, but not shrink, use the `.flex-auto` utility.
 
 ### .flex-none
 To prevent an element from growing or shrinking, use the `.flex-none` utility.
-```html:example
+```html
 <div class="flex">
   <a href="#" class="flex-auto m1 button button-blue">Home</a>
   <a href="#" class="flex-auto m1 button button-blue">Nav Item</a>
@@ -190,7 +190,7 @@ To prevent an element from growing or shrinking, use the `.flex-none` utility.
 To change the order of child elements, use the `.flex-first` and `.flex-last` utilities.
 
 ### .flex-first
-```html:example
+```html
 <div class="flex">
   <a href="#" class="button button-blue">Nav Item</a>
   <a href="#" class="button button-blue">Nav Item</a>
@@ -200,7 +200,7 @@ To change the order of child elements, use the `.flex-first` and `.flex-last` ut
 ```
 
 ### .flex-last
-```html:example
+```html
 <div class="flex">
   <a href="#" class="button button-blue">Nav Item</a>
   <a href="#" class="button button-blue">Nav Item</a>
