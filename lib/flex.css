@@ -2,7 +2,6 @@
 .flex { display: flex }
 
 .flex-column  { flex-direction: column }
-.flex-reverse { flex-direction: row-reverse }
 .flex-wrap    { flex-wrap: wrap }
 
 .flex-center   { align-items: center }
