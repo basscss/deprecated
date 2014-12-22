@@ -1,7 +1,15 @@
 {
   "name": "basscss-grid",
   "version": "0.0.12",
-  "description": "CSS grid module for BASSCSS",
+  "description": "CSS grid module for Basscss",
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jxnblk/basscss-grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-grid/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-grid"
 }
