@@ -1,7 +1,7 @@
 {
   "name": "basscss-utility-typography",
   "version": "0.0.1",
-  "description": "Typography utilities module for BASSCSS",
+  "description": "Typography utilities module for Basscss",
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/basscss-utility-typography.git"
@@ -9,9 +9,13 @@
   "keywords": [
     "CSS",
     "OOCSS",
-    "BASSCSS",
+    "Basscss",
     "Rework"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-utility-typography/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-utility-typography"
 }
