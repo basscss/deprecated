@@ -9,9 +9,13 @@
   "keywords": [
     "CSS",
     "OOCSS",
-    "BASSCSS",
+    "Basscss",
     "Rework"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-utility-white-space/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-utility-white-space"
 }
