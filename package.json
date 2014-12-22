@@ -1,7 +1,7 @@
 {
   "name": "basscss-color-borders",
   "version": "0.0.1",
-  "description": "Border color styles module for BASSCSS",
+  "description": "Border color styles module for Basscss",
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/basscss-color-borders.git"
@@ -9,9 +9,13 @@
   "keywords": [
     "CSS",
     "OOCSS",
-    "BASSCSS",
+    "Basscss",
     "Rework"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-color-borders/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-color-borders"
 }
