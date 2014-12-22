@@ -2,7 +2,7 @@
   "name": "basscss-positions",
   "version": "0.0.4",
   "description": "CSS positioning utilities for Basscss",
-  "main": "index.css",
+  "style": "index.css",
   "author": "Brent Jackson",
   "license": "MIT",
   "repository": {
