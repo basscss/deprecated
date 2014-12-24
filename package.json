@@ -1,7 +1,7 @@
 {
   "name": "basscss-ui-utility-groups",
   "version": "0.0.1",
-  "description": "UI group utilities module for BASSCSS",
+  "description": "UI group utilities module for Basscss",
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/basscss-ui-utility-groups.git"
@@ -9,9 +9,13 @@
   "keywords": [
     "CSS",
     "OOCSS",
-    "BASSCSS",
+    "Basscss",
     "Rework"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-ui-utility-groups/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-ui-utility-groups"
 }

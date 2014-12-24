@@ -1,8 +1,6 @@
 # Basscss UI Utility Groups
 
-<p class="hide">UI group utilities module for Basscss</p>
-
-<a href="http://basscss.com" class="hide">basscss.com</a>
+UI group utilities module for Basscss - http://basscss.com
 
 Use group utilities for fine-grained control over visually grouping buttons, form fields, and other elements
 
