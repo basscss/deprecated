@@ -2,7 +2,7 @@
 
 UI group utilities module for Basscss - http://basscss.com
 
-Use group utilities for fine-grained control over visually grouping buttons, form fields, and other elements
+Use group utilities for fine-grained control over visually grouping buttons, form fields, and other elements.
 
 ## Button Groups
 Button groups allow for more flexibility in establishing gestalt and controlling information density.
@@ -36,5 +36,40 @@ but with more direct control over styling.
 
 Use `.y-group-item` and `.y-group-item-2` to group elements vertically.
 
-{{ macros.example('button-group-segments-vertical.html') }}
+```html
+<div class="inline-block">
+  <button type="button" class="block full-width button-blue-outline y-group-item-2 rounded-top is-active">Burgers</button>
+  <button type="button" class="block full-width button-blue-outline y-group-item-2 not-rounded">Fries</button>
+  <button type="button" class="block full-width button-blue-outline y-group-item-2 rounded-bottom">Shake</button>
+</div>
+```
+
+## Input Groups
+
+Input groups can be created by removing margins, adjusting border radii, and using the group utilities.
+The `.hide` utility visually hides labels, while keeping them accessible to screen readers.
+
+```html
+<form class="sm-col-6">
+  <label class="hide">Pancakes</label>
+  <input type="text" class="block full-width mb0 field-light rounded-top y-group-item" placeholder="Pancakes">
+  <label class="hide">Making</label>
+  <input type="password" class="block full-width mb0 field-light not-rounded y-group-item" placeholder="Making">
+  <label class="hide">Bacon</label>
+  <input type="text" class="block full-width field-light rounded-bottom y-group-item" placeholder="Bacon">
+  <button type="submit" class="button-blue">Pancake</button>
+</form>
+```
+
+The grid system can be used to control button or input group widths.
+
+```html
+<form class="clearfix">
+  <label class="hide">Bacon</label>
+  <input type="text" class="col col-4 md-col-5 mb0 field-light rounded-left x-group-item" placeholder="Bacon">
+  <label class="hide">Pancakes</label>
+  <input type="password" class="col col-4 md-col-5 mb0 field-light not-rounded x-group-item" placeholder="Pancakes">
+  <button type="submit" class="col col-4 md-col-2 button-blue rounded-right">Pancake</button>
+</form>
+```
 
