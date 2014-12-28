@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jxnblk/basscss-ui-utility-groups/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-ui-utility-groups"
+  "homepage": "https://github.com/jxnblk/basscss-ui-utility-groups",
+  "basscss": {
+    "category": "utility",
+    "optional": true
+  }
 }
