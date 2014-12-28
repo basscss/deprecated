@@ -22,5 +22,9 @@
     "gulp-footer": "^1.0.5",
     "gulp-marked": "^1.0.0",
     "marked-example": "^1.0.2"
+  },
+  "basscss": {
+    "category": "layout",
+    "optional": true
   }
 }
