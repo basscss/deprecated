@@ -21,6 +21,7 @@
   "dependencies": {
     "basscss-button-blue": "0.0.1",
     "basscss-button-blue-outline": "0.0.1",
+    "basscss-button-gray": "0.0.1",
     "basscss-button-light-gray": "0.0.2"
   }
 }

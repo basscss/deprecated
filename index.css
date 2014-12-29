@@ -3,7 +3,7 @@
 @import "basscss-button-light-gray";
 @import "basscss-button-blue";
 @import "basscss-button-blue-outline";
-@import "./lib/button-gray";
+@import "basscss-button-gray";
 @import "./lib/button-red";
 
 @import "./lib/button-nav-light";
