@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jxnblk/basscss-color-buttons/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-color-buttons"
+  "homepage": "https://github.com/jxnblk/basscss-color-buttons",
+  "dependencies": {
+    "basscss-button-blue": "0.0.1",
+    "basscss-button-light-gray": "0.0.2"
+  }
 }
