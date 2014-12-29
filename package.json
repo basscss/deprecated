@@ -1,0 +1,21 @@
+{
+  "name": "basscss-button-blue",
+  "version": "0.0.1",
+  "description": "Blue button color module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/basscss-button-blue.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss",
+    "Rework"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-button-blue/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-button-blue"
+}
