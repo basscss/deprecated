@@ -1,6 +1,6 @@
 
 .button-blue-outline {
-  line-height: 1;
+  line-height: 1rem;
   color: var(--blue);
   background-color: transparent;
   border-radius: var(--border-radius);
