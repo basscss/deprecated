@@ -155,7 +155,6 @@ To control the size and behavior of child elements, use these utilities.
 To make an element grow or shrink as needed, use the `.flex-auto` utility.
 ```html
 <div class="flex">
-  <a href="#" class="button button-nav-light">Home</a>
   <a href="#" class="button button-nav-light">Nav Item</a>
   <a href="#" class="button button-nav-light">Nav Item</a>
   <div class="flex-auto blue border"></div>
@@ -164,10 +163,9 @@ To make an element grow or shrink as needed, use the `.flex-auto` utility.
 ```
 
 ### .flex-grow
-To make an element grow, but not shrink, use the `.flex-auto` utility.
+To make an element grow, but not shrink, use the `.flex-grow` utility.
 ```html
 <div class="flex">
-  <a href="#" class="button button-nav-light">Home</a>
   <a href="#" class="button button-nav-light">Nav Item</a>
   <a href="#" class="button button-nav-light">Nav Item</a>
   <div class="flex-grow blue border"></div>
@@ -179,7 +177,6 @@ To make an element grow, but not shrink, use the `.flex-auto` utility.
 To prevent an element from growing or shrinking, use the `.flex-none` utility.
 ```html
 <div class="flex">
-  <a href="#" class="flex-auto m1 button button-blue">Home</a>
   <a href="#" class="flex-auto m1 button button-blue">Nav Item</a>
   <a href="#" class="flex-auto m1 button button-blue">Nav Item</a>
   <a href="#" class="flex-none m1 button button-blue">Nav Item</a>
@@ -193,7 +190,6 @@ To change the order of child elements, use the `.flex-first` and `.flex-last` ut
 ```html
 <div class="flex">
   <a href="#" class="button button-blue">Nav Item</a>
-  <a href="#" class="button button-blue">Nav Item</a>
   <a href="#" class="flex-first button button-blue">Nav Item First</a>
   <a href="#" class="button button-blue">Nav Item</a>
 </div>
@@ -202,7 +198,6 @@ To change the order of child elements, use the `.flex-first` and `.flex-last` ut
 ### .flex-last
 ```html
 <div class="flex">
-  <a href="#" class="button button-blue">Nav Item</a>
   <a href="#" class="button button-blue">Nav Item</a>
   <a href="#" class="flex-last button button-blue">Nav Item Last</a>
   <a href="#" class="button button-blue">Nav Item</a>
