@@ -7,7 +7,7 @@
 }
 
 .button-nav-tab:hover {
-  background-color: var(--darken-1);
+  background-color: var(--hover-background-color);
 }
 
 .button-nav-tab.is-active {
