@@ -1,0 +1,21 @@
+{
+  "name": "basscss-button-nav-light",
+  "version": "0.0.1",
+  "description": "Navigation button color style module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/basscss-button-nav-light.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss",
+    "Rework"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-button-nav-light/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-button-nav-light"
+}
