@@ -8,6 +8,8 @@ The flex-object is a powerful suite of utilities based on the
 These utilities can replace the need for a grid system in many instances,
 but can also be combined with the Basscss grid for even more possibilities.
 
+Note: browser support for the flexible box layout module is limited. See http://caniuse.com/#feat=flexbox
+
 ## .flex
 To begin, add the `.flex` class to a parent element.
 This sets the element to `display: flex` and enables a flex context for all direct child elements.
