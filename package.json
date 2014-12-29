@@ -1,0 +1,21 @@
+{
+  "name": "basscss-button-nav-dark",
+  "version": "0.0.1",
+  "description": "Dark navigation button color style module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/basscss-button-nav-dark.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss",
+    "Rework"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-button-nav-dark/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-button-nav-dark"
+}
