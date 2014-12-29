@@ -1,7 +1,7 @@
 {
   "name": "basscss-color-buttons",
-  "version": "0.0.2",
-  "description": "Button color styles module for BASSCSS",
+  "version": "0.0.3",
+  "description": "Button color styles module for Basscss",
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/basscss-color-buttons.git"
@@ -9,9 +9,13 @@
   "keywords": [
     "CSS",
     "OOCSS",
-    "BASSCSS",
+    "Basscss",
     "Rework"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-color-buttons/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-color-buttons"
 }
