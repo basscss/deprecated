@@ -1,4 +1,4 @@
-# Basscss
+# Basscss Button Light Gray
 
 Light gray button color module for Basscss - http://basscss.com
 
