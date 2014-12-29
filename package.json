@@ -1,7 +1,7 @@
 {
   "name": "basscss-base-buttons",
-  "version": "0.0.1",
-  "description": "Base button styles for BASSCSS",
+  "version": "0.0.2",
+  "description": "Base button styles for Basscss",
   "repository": {
     "type": "git",
     "url": "https://github.com/jxnblk/basscss-base-buttons.git"
@@ -9,9 +9,13 @@
   "keywords": [
     "CSS",
     "OOCSS",
-    "BASSCSS",
+    "Basscss",
     "Rework"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-base-buttons/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-base-buttons"
 }
