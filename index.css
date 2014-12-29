@@ -8,7 +8,7 @@
 
 @import "basscss-button-nav-light";
 @import "basscss-button-nav-dark";
-@import "./lib/button-nav-tab";
+@import "basscss-button-nav-tab";
 
 
 :root {
