@@ -1,8 +1,6 @@
 # Basscss Base Buttons
 
-<p class="hide">Base button styles module for Basscss</p>
-
-<a href="http://basscss.com" class="hide">basscss.com</a>
+Base button styles module for Basscss - http://basscss.com
 
 Structural styles and resets for buttons are set in this base element styles module.
 All buttons share common padding and height, well suited for tap targets on touchscreen displays.
