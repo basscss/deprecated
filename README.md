@@ -20,3 +20,18 @@ Color styles in other modules and other custom extensions adjust their surface-l
 </div>
 ```
 
+## Default Variables
+To customize base button styles, use the following variables.
+
+```css
+:root {
+  --button-font-size: inherit;
+  --button-font-weight: bold;
+  --button-line-height: 1.125rem;
+  --button-padding-y: .5rem;
+  --button-padding-x: 1rem;
+}
+```
+
+Note: adjusting the line-height and padding may require adjustments to form element variables to maintain vertical alignment.
+
