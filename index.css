@@ -26,7 +26,7 @@ button,
 
 :root {
   --button-font-size: inherit;
-  --button-font-weight: bold;
+  --button-font-weight: var(--bold-font-weight, bold);
   --button-line-height: 1.125rem;
   --button-padding-y: .5rem;
   --button-padding-x: 1rem;
