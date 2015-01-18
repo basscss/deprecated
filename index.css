@@ -1,11 +1,10 @@
 /* Basscss Button Blue Outline */
 
 .button-blue-outline {
-  line-height: 1rem;
   color: var(--blue);
   background-color: transparent;
   border-radius: var(--border-radius);
-  border: 2px solid var(--blue);
+  border: 1px solid var(--blue);
   transition-duration: .1s;
   transition-timing-function: ease-out;
   transition-property: box-shadow, background-color;
