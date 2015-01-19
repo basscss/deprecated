@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jxnblk/basscss-button-nav-tab/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-button-nav-tab"
+  "homepage": "https://github.com/jxnblk/basscss-button-nav-tab",
+  "basscss": {
+    "category": "color",
+    "optional": true
+  }
 }

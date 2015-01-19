@@ -4,6 +4,8 @@
   margin-bottom: -1px;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   border-bottom: 1px solid var(--border-color);
+  color: var(--dark-gray);
+  background-color: transparent;
 }
 
 .button-nav-tab:hover {
@@ -19,6 +21,7 @@
 }
 
 :root {
+  --dark-gray: #333;
   --light-gray: #ccc;
   --darken-1: rgba(#000,.0625);
   --hover-background-color: var(--darken-1);
