@@ -4,7 +4,7 @@
   color: var(--blue);
   background-color: transparent;
   border-radius: var(--border-radius);
-  border: 1px solid var(--blue);
+  border: var(--border-width) solid var(--blue);
   transition-duration: .1s;
   transition-timing-function: ease-out;
   transition-property: box-shadow, background-color;
@@ -36,5 +36,6 @@
 :root {
   --blue: #0076df;
   --border-radius: 3px;
+  --border-width: 1px;
 }
 
