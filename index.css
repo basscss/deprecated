@@ -1,5 +1,10 @@
 /* Basscss Button Nav Light */
 
+.button-nav-light {
+  color: var(--button-nav-light-color);
+  background-color: transparent;
+}
+
 .button-nav-light:hover {
   background-color: var(--hover-background-color);
 }
@@ -11,6 +16,7 @@
 :root {
   --dark-gray: #333;
   --darken-1: rgba(#000,.0625);
+  --button-nav-light-color: var(--blue, inherit);
   --hover-background-color: var(--darken-1);
   --border-radius: 3px;
 }
