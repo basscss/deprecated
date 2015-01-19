@@ -19,28 +19,25 @@ and `.not-rounded` can be used to override button and form field border radii.
 ```
 
 Normally, buttons with borders would double up when placed next to each other.
-The `.x-group-item` and `.x-group-item-2` utilities
-adjust negative margins and focus states to visually collapse borders.
-
-Use the `.x-group-item-2` utility on elements with 2px borders.
+The `.x-group-item` utility adjusts negative margins and focus states to visually collapse borders.
 Functionally, this is similar to how other frameworks handle button and form input groups,
 but with more direct control over styling.
 
 ```html
 <div class="inline-block clearfix">
-  <button type="button" class="left button-blue-outline x-group-item-2 rounded-left is-active">Burgers</button>
-  <button type="button" class="left button-blue-outline x-group-item-2 not-rounded">Fries</button>
-  <button type="button" class="left button-blue-outline x-group-item-2 rounded-right">Shake</button>
+  <button type="button" class="left button-blue-outline x-group-item rounded-left is-active">Burgers</button>
+  <button type="button" class="left button-blue-outline x-group-item not-rounded">Fries</button>
+  <button type="button" class="left button-blue-outline x-group-item rounded-right">Shake</button>
 </div>
 ```
 
-Use `.y-group-item` and `.y-group-item-2` to group elements vertically.
+Use `.y-group-item` to group elements vertically.
 
 ```html
 <div class="inline-block">
-  <button type="button" class="block full-width button-blue-outline y-group-item-2 rounded-top is-active">Burgers</button>
-  <button type="button" class="block full-width button-blue-outline y-group-item-2 not-rounded">Fries</button>
-  <button type="button" class="block full-width button-blue-outline y-group-item-2 rounded-bottom">Shake</button>
+  <button type="button" class="block full-width button-blue-outline y-group-item rounded-top is-active">Burgers</button>
+  <button type="button" class="block full-width button-blue-outline y-group-item not-rounded">Fries</button>
+  <button type="button" class="block full-width button-blue-outline y-group-item rounded-bottom">Shake</button>
 </div>
 ```
 
