@@ -23,7 +23,7 @@ Use these styles on button elements, or with the `basscss-base-buttons` module f
 <div class="mb1">
   <button class="button-blue mb1">Button Blue</button>
   <button class="button-blue-outline mb1">Button Blue Outline</button>
-  <button class="button-light-gray mb1">Button Gray</button>
+  <button class="button-light-gray mb1">Button Light Gray</button>
   <button class="button-red mb1">Button Red</button>
 </div>
 ```
