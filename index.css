@@ -2,6 +2,7 @@
 
 .button-nav-dark {
   color: white;
+  background-color: transparent;
 }
 
 .button-nav-dark:hover {
