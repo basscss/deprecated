@@ -4,12 +4,15 @@
 
 <a href="http://basscss.com" class="hide">basscss.com</a>
 
-Basscss includes the following basic button styles:
+Includes the following basic button modules:
 `.button-blue`,
-`.button-gray`,
-`.button-blue-outline`, and
-`.button-red`.
-Customize these styles to suite your needs.
+`.button-blue-outline`,
+`.button-light-gray`,
+`.button-red`,
+`.button-nav-light`, and
+`.button-nav-dark`.
+
+Use these styles on button elements, or with the `basscss-base-buttons` module for links and input buttons.
 
 ```html
 <div class="mb1">
@@ -20,7 +23,7 @@ Customize these styles to suite your needs.
 <div class="mb1">
   <button class="button-blue mb1">Button Blue</button>
   <button class="button-blue-outline mb1">Button Blue Outline</button>
-  <button class="button-gray mb1">Button Gray</button>
+  <button class="button-light-gray mb1">Button Gray</button>
   <button class="button-red mb1">Button Red</button>
 </div>
 ```
