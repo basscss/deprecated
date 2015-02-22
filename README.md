@@ -17,10 +17,11 @@ Color style modules and other custom extensions adjust their surface-level appea
 
 ```html
 <div class="mb1">
-  <button class="button-blue mb1">Button Blue</button>
-  <button class="button-blue-outline mb1">Button Blue Outline</button>
-  <button class="button-light-gray mb1">Button Light Gray</button>
-  <button class="button-red mb1">Button Red</button>
+  <button class="button mb1">Button</button>
+  <button class="button-outline blue mb1">Button Outline</button>
+  <button class="button black bg-silver mb1">Silver Button</button>
+  <button class="button bg-red mb1">Button Red</button>
+  <button class="button-transparent mb1">Transparent Button</button>
 </div>
 ```
 
