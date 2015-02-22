@@ -6,7 +6,7 @@
 
 Color styles for form elements on dark backgrounds.
 
-# Input Fields
+## Input Fields
 
 To style the color, background, and border styles for form fields on dark backgrounds, use the `.field-dark` style.
 
