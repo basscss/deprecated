@@ -1,0 +1,21 @@
+{
+  "name": "basscss-button-transparent",
+  "version": "0.0.1",
+  "description": "Transparent button color module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/basscss-button-transparent.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss",
+    "Rework"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-button-transparent/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-button-transparent"
+}
