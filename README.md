@@ -15,19 +15,19 @@ The `button-outline` style inherits color from its parent.
 Use utility styles to change the color.
 
 ```html
-<button class="button-outline">Button</button>
-<button class="button-outline navy">Button</button>
-<button class="button-outline blue">Button</button>
-<button class="button-outline aqua">Button</button>
-<button class="button-outline teal">Button</button>
-<button class="button-outline olive">Button</button>
-<button class="button-outline green">Button</button>
-<button class="button-outline lime">Button</button>
-<button class="button-outline yellow">Button</button>
-<button class="button-outline orange">Button</button>
-<button class="button-outline red">Button</button>
-<button class="button-outline maroon">Button</button>
-<button class="button-outline fuchsia">Button</button>
-<button class="button-outline purple">Button</button>
+<button class="button-outline mb1">Button</button>
+<button class="button-outline mb1 navy">Button</button>
+<button class="button-outline mb1 blue">Button</button>
+<button class="button-outline mb1 aqua">Button</button>
+<button class="button-outline mb1 teal">Button</button>
+<button class="button-outline mb1 olive">Button</button>
+<button class="button-outline mb1 green">Button</button>
+<button class="button-outline mb1 lime">Button</button>
+<button class="button-outline mb1 yellow">Button</button>
+<button class="button-outline mb1 orange">Button</button>
+<button class="button-outline mb1 red">Button</button>
+<button class="button-outline mb1 maroon">Button</button>
+<button class="button-outline mb1 fuchsia">Button</button>
+<button class="button-outline mb1 purple">Button</button>
 ```
 
