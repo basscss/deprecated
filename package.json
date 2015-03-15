@@ -1,0 +1,21 @@
+{
+  "name": "basscss-button-link",
+  "version": "1.0.0",
+  "description": "Link-style button color module for Basscss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxnblk/basscss-button-link.git"
+  },
+  "keywords": [
+    "CSS",
+    "OOCSS",
+    "Basscss",
+    "Rework"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/basscss-button-link/issues"
+  },
+  "homepage": "https://github.com/jxnblk/basscss-button-link"
+}
