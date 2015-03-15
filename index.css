@@ -46,6 +46,7 @@
 
 .button-transparent:active:before,
 .button-transparent.is-active:before {
+  box-shadow: none;
   opacity: .0625;
 }
 
