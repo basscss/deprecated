@@ -1,10 +1,11 @@
 /* Basscss Color Forms Dark */
 
+
 .field-dark {
   color: white;
   background-color: var(--darken-3);
   border: 1px solid var(--darken-1);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius, 3px);
 }
 
 .field-dark::placeholder {
@@ -21,36 +22,19 @@
 }
 
 .field-dark:invalid {
-  border-color: var(--red);
+  border-color: var(--red, red);
 }
 
 .field-dark.is-success {
-  border-color: var(--green);
+  border-color: var(--green, green);
 }
 
 .field-dark.is-warning {
-  border-color: var(--yellow);
+  border-color: var(--yellow, yellow);
 }
 
 .field-dark.is-error {
-  border-color: var(--red);
+  border-color: var(--red, red);
 }
 
-:root {
-  --blue: #0076df;
-  --red: #f95020;
-  --green: #00cf26;
-  --yellow: #efcc00;
-  --dark-gray: #333;
-  --mid-gray: #777;
-  --light-gray: #ccc;
-  --lighter-gray: #eee;
-  --darken-1: rgba(0,0,0,.0625);
-  --darken-2: rgba(0,0,0,.125);
-  --darken-3: rgba(0,0,0,.25);
-  --darken-4: rgba(0,0,0,.5);
-  --border-color: var(--light-gray);
-  --border-width: 1px;
-  --border-radius: 3px;
-}
 
