@@ -18,5 +18,7 @@
     "url": "https://github.com/jxnblk/basscss-color-forms-dark/issues"
   },
   "homepage": "https://github.com/jxnblk/basscss-color-forms-dark",
-  "dependencies": {}
+  "dependencies": {
+    "colors.css": "^2.2.0"
+  }
 }
