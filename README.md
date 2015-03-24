@@ -1,7 +1,6 @@
 # Flex Object
 
-<p class="hide">CSS layout module using flexbox</p>
-<a href="http://jxnblk.com/flex-object" class="hide">jxnblk.com/flex-object</a>
+CSS layout module using flexbox http://jxnblk.com/flex-object
 
 The flex-object is a powerful suite of utilities based on the
 <a href="http://www.w3.org/TR/css3-flexbox/">flexible box layout module</a>.
@@ -231,12 +230,4 @@ To change the order of child elements, use the `.flex-first` and `.flex-last` ut
 .flex-none  { flex: none }
 ```
 
-## Custom Media Queries
-Adjust these custom media query values to change the breakpoints.
-
-```css
-@custom-media --breakpoint-sm (min-width: 40em);
-@custom-media --breakpoint-md (min-width: 52em);
-@custom-media --breakpoint-lg (min-width: 64em);
-```
 
