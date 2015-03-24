@@ -98,6 +98,6 @@ This is to normalize the spacing used around elements.
 
 <span class="red">Margins and padding should never be declared outside of these utilities.</span>
 This is meant to help create consistent rhythm and avoid magic numbers.
-If, for some reason, the default white space scale does not accomodate your design,
+If, for some reason, the default white space scale does not suit your design,
 customize and extend it before implementation.
 
