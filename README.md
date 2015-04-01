@@ -14,8 +14,8 @@ To begin, add the `.flex` class to a parent element.
 This sets the element to `display: flex` and enables a flex context for all direct child elements.
 ```html
 <div class="flex">
-  <a href="#" class="button button-transparent">Link</a>
-  <a href="#" class="button button-transparent">Link</a>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -23,14 +23,14 @@ This sets the element to `display: flex` and enables a flex context for all dire
 To wrap elements, use the `.flex-wrap` utility.
 ```html
 <div class="flex flex-wrap">
-  <a href="#" class="button button-transparent">Home</a>
-  <a href="#" class="button button-transparent">Nav Item</a>
-  <a href="#" class="button button-transparent">Nav Item</a>
-  <a href="#" class="button button-transparent">Nav Item</a>
-  <a href="#" class="button button-transparent">Nav Item</a>
-  <a href="#" class="button button-transparent">Nav Item</a>
-  <a href="#" class="button button-transparent">Nav Item</a>
-  <a href="#" class="button button-transparent">Nav Item</a>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -38,9 +38,9 @@ To wrap elements, use the `.flex-wrap` utility.
 To arrange items vertically, use the `.flex-column` utility.
 ```html
 <div class="flex flex-column">
-  <div class="p1 blue border border-blue">Row</div>
-  <div class="p1 blue border border-blue">Row</div>
-  <div class="p1 blue border border-blue">Row</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -52,9 +52,9 @@ To vertically center child elements, add the `.flex-center` class to the parent 
 ```html
 <div class="flex flex-center">
   <div class="flex-auto px2 py4 blue border border-blue">
-    <h1 class="m0">Big</h1>
+    <h1 class="m0">Hamburger</h1>
   </div>
-  <div class="px2 blue border border-blue">Small</div>
+  <div class="px2 blue border border-blue">Hot dog</div>
 </div>
 ```
 
@@ -63,9 +63,9 @@ To stretch all elements to fill the height of the parent, use the `.flex-stretch
 ```html
 <div class="flex flex-stretch">
   <div class="flex-auto px2 py4 blue border border-blue">
-    <h1 class="m0">Big</h1>
+    <h1 class="m0">Hamburger</h1>
   </div>
-  <div class="px2 blue border border-blue">Small</div>
+  <div class="px2 blue border border-blue">Hot dog</div>
 </div>
 ```
 
@@ -74,11 +74,11 @@ To ensure nested elements stretch as well, add the `.flex` class to relevant ele
 ```html
 <div class="flex flex-stretch">
   <div class="flex-auto px2 py4 blue border border-blue">
-    <h1 class="m0">Big</h1>
+    <h1 class="m0">Hamburger</h1>
   </div>
   <div class="flex blue border border-blue">
     <div class="px2 white bg-blue">
-      Small
+      Hot dog
     </div>
   </div>
 </div>
@@ -90,9 +90,9 @@ To align child elements to their baseline, use the `.flex-baseline` utility.
 ```html
 <div class="flex flex-baseline blue border-bottom border-blue">
   <div class="flex-auto px2">
-    <h1 class="m0">Big</h1>
+    <h1 class="m0">Hamburger</h1>
   </div>
-  <div class="px2">Small</div>
+  <div class="px2">Hot dog</div>
 </div>
 ```
 
@@ -102,9 +102,9 @@ To align child elements to the top, use the `.flex-start` utility.
 ```html
 <div class="flex flex-start blue border-top border-blue">
   <div class="flex-auto px2">
-    <h1 class="m0">Big</h1>
+    <h1 class="m0">Hamburger</h1>
   </div>
-  <div class="px2">Small</div>
+  <div class="px2">Hot dog</div>
 </div>
 ```
 
@@ -114,9 +114,9 @@ To align child elements to the bottom, use the `.flex-end` utility.
 ```html
 <div class="flex flex-end blue border-bottom border-blue">
   <div class="flex-auto px2">
-    <h1 class="m0">Big</h1>
+    <h1 class="m0">Hamburger</h1>
   </div>
-  <div class="px2">Small</div>
+  <div class="px2">Hot dog</div>
 </div>
 ```
 
@@ -127,25 +127,25 @@ All other utilities will only work at the set breakpoint.
 
 ```html
 <div class="sm-flex flex-center mb2 blue">
-  <div class="border border-blue">
+  <div class="p1 border border-blue">
     <h2 class="m0">.sm-flex</h2>
   </div>
-  <div class="flex-auto border border-blue">Div</div>
-  <div class="border border-blue">Div</div>
+  <div class="flex-auto p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
 </div>
 <div class="md-flex flex-center mb2 blue">
-  <div class="border border-blue">
+  <div class="p1 border border-blue">
     <h2 class="m0">.md-flex</h2>
   </div>
-  <div class="flex-auto border border-blue">Div</div>
-  <div class="border border-blue">Div</div>
+  <div class="flex-auto p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
 </div>
 <div class="lg-flex flex-center mb2 blue">
-  <div class="border border-blue">
+  <div class="p1 border border-blue">
     <h2 class="m0">.lg-flex</h2>
   </div>
-  <div class="flex-auto border border-blue">Div</div>
-  <div class="border border-blue">Div</div>
+  <div class="flex-auto p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -156,10 +156,10 @@ To control the size and behavior of child elements, use these utilities.
 To make an element grow or shrink as needed, use the `.flex-auto` utility.
 ```html
 <div class="flex">
-  <a href="#" class="button button-transparent">Nav Item</a>
-  <a href="#" class="button button-transparent">Nav Item</a>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
   <div class="flex-auto blue border border-blue"></div>
-  <a href="#" class="button button-transparent">Nav Item</a>
+  <div class="px2 py1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -167,10 +167,10 @@ To make an element grow or shrink as needed, use the `.flex-auto` utility.
 To make an element grow, but not shrink, use the `.flex-grow` utility.
 ```html
 <div class="flex">
-  <a href="#" class="button button-transparent">Nav Item</a>
-  <a href="#" class="button button-transparent">Nav Item</a>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
   <div class="flex-grow blue border border-blue"></div>
-  <a href="#" class="button button-transparent">Nav Item</a>
+  <div class="px2 py1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -178,9 +178,9 @@ To make an element grow, but not shrink, use the `.flex-grow` utility.
 To prevent an element from growing or shrinking, use the `.flex-none` utility.
 ```html
 <div class="flex">
-  <a href="#" class="flex-auto m1 button">Nav Item</a>
-  <a href="#" class="flex-auto m1 button">Nav Item</a>
-  <a href="#" class="flex-none m1 button">Nav Item</a>
+  <div class="flex-auto px2 py1 border border-blue">Hamburger</div>
+  <div class="flex-auto px2 py1 border border-blue">Hamburger</div>
+  <div class="flex-none px2 py1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -190,18 +190,18 @@ To change the order of child elements, use the `.flex-first` and `.flex-last` ut
 ### .flex-first
 ```html
 <div class="flex">
-  <a href="#" class="button">Nav Item</a>
-  <a href="#" class="flex-first button">Nav Item First</a>
-  <a href="#" class="button">Nav Item</a>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="flex-first px2 py1 border border-blue">First Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
 </div>
 ```
 
 ### .flex-last
 ```html
 <div class="flex">
-  <a href="#" class="button">Nav Item</a>
-  <a href="#" class="flex-last button">Nav Item Last</a>
-  <a href="#" class="button">Nav Item</a>
+  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="flex-last px2 py1 border border-blue">Last Hamburger</div>
+  <div class="px2 py1 border border-blue">Hamburger</div>
 </div>
 ```
 
