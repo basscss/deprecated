@@ -1,15 +1,10 @@
-# Basscss Utility White Space
-
-<p class="hide">White space margin and padding utilities module for Basscss</p>
-
-<a href="http://basscss.com" class="hide">basscss.com</a>
 
 Margin and padding utilities are based on a global white space scale defined with variables.
 These utilities use a shorthand naming convention.
 
 <div class="overflow-scroll">
-  <table class="mb2 bg-darken-1 rounded table-light">
-    <thead class="bg-darken-1">
+  <table class="mb2 table-flush table-light">
+    <thead>
       <tr> <th>Shorthand</th> <th>Description</th> </tr>
     </thead>
     <tbody>
