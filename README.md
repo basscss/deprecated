@@ -1,8 +1,3 @@
-# Basscss Positions
-
-<p class="hide">Positioning utilities for Basscss.</p>
-
-<a href="http://basscss.com" class="hide">basscss.com</a>
 
 These styles alter the default document flow.
 
