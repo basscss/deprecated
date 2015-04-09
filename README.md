@@ -1,8 +1,5 @@
-# Basscss Button Transparent
 
-Transparent button color module for [Basscss](http://basscss.com)
-
-The `button-transparent` style inherits color from its parent.
+The `.button-transparent` style inherits color from its parent.
 
 ```html
 <div class="blue">
