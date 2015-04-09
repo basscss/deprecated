@@ -1,6 +1,3 @@
-# Flex Object
-
-CSS layout module using flexbox http://jxnblk.com/flex-object
 
 The flex-object is a powerful suite of utilities based on the
 <a href="http://www.w3.org/TR/css3-flexbox/">flexible box layout module</a>.
