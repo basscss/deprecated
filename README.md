@@ -1,9 +1,3 @@
-# Basscss Utility Typography
-
-<p class="hide">Typography utilities module for Basscss</p>
-
-<a href="http://basscss.com" class="hide">basscss.com</a>
-
 Change typographic styles and defaults with these utilities.
 
 ```html
