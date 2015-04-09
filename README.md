@@ -1,9 +1,5 @@
-# Basscss Color Borders
 
-<p class="hide">Border color styles module for Basscss</p>
-
-<a href="http://basscss.com" class="hide">basscss.com</a>
-
+Add borders with these border utilities.
 
 ```html
 <div class="p1 m1 border bg-lighter-gray">.border</div>
