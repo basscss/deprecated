@@ -1,8 +1,3 @@
-# Basscss Grid
-
-<p class="hide">Grid layout module for Basscss.</p>
-
-<a href="http://basscss.com" class="hide">basscss.com</a>
 
 The utility-based grid allows a lot of flexibility in creating complex layouts.
 
