@@ -1,8 +1,5 @@
-# Basscss Button Outline
 
-Outline style button color module for [Basscss](http://basscss.com)
-
-The `button-outline` style inherits color from its parent.
+The `.button-outline` style inherits color from its parent.
 
 ```html
 <div class="blue">
