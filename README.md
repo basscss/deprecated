@@ -1,9 +1,10 @@
 
-Color styles for form elements on dark backgrounds.
+This module sets basic color styles for form elements on dark backgrounds.
 
 ## Input Fields
 
 To style the color, background, and border styles for form fields on dark backgrounds, use the `.field-dark` style.
+This style works on text inputs, selects, and textareas.
 
 ```html
 <form class="p2 white bg-dark-gray">

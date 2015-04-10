@@ -1,7 +1,5 @@
 /* Basscss Color Forms Dark */
 
-@import 'colors.css/myth/variables';
-
 .field-dark {
   color: white;
   background-color: var(--darken-3);
@@ -38,4 +36,6 @@
   border-color: var(--red);
 }
 
+
+@import 'colors.css/myth/variables';
 
