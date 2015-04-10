@@ -1,4 +1,6 @@
 
+This module provides a minimal text-only button style well suited for navigation links or icon buttons.
+
 The `.button-transparent` style inherits color from its parent.
 
 ```html
@@ -9,7 +11,7 @@ The `.button-transparent` style inherits color from its parent.
 </div>
 ```
 
-Use utility styles to change the color.
+Use color utilities to change the color.
 
 ```html
 <button class="button-transparent">Button</button>
