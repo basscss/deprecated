@@ -1,4 +1,6 @@
 
+This module provides a less prominent button style well suited for secondary actions.
+
 The `.button-outline` style inherits color from its parent.
 
 ```html
@@ -9,7 +11,7 @@ The `.button-outline` style inherits color from its parent.
 </div>
 ```
 
-Use utility styles to change the color.
+Use color utilities to change the color.
 
 ```html
 <button class="button-outline mb1">Button</button>
