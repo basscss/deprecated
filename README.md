@@ -1,6 +1,11 @@
 
-Margin and padding utilities are based on a global white space scale defined with variables.
-These utilities use a shorthand naming convention.
+Immutable margin and padding utilities are based on a global white space scale defined with custom properties.
+These can dramatically help reduce the size of large stylesheets and allow for greater flexibility and quicker iteration when designing in the browser.
+
+## Naming Convention
+
+Due to the ubiquitous nature of setting margin and padding,
+these utilities use a shorthand naming convention.
 
 <div class="overflow-scroll">
   <table class="mb2 table-flush table-light">
@@ -26,8 +31,9 @@ These utilities use a shorthand naming convention.
 </div>
 
 ## Margins
-Change or reset default margins using the global white space scale.
-Negative x-axis margins are used to offset padding.
+
+Change or reset default margins using the white space scale.
+Negative x-axis margins are used to offset margins and padding of child elements.
 Margin auto is used to horizontally center block-level elements with a set width.
 
 ```css
@@ -70,8 +76,9 @@ Margin auto is used to horizontally center block-level elements with a set width
 ```
 
 ## Padding
+
 Padding utilities are only available in symmetrical orientations.
-This is to normalize the spacing used around elements.
+This is to normalize the spacing used around elements and maintain a consistent visual rhythm.
 
 ```css
 .p1  { padding:       var(--space-1) }
@@ -91,8 +98,80 @@ This is to normalize the spacing used around elements.
 .px4 { padding-left:  var(--space-4); padding-right:  var(--space-4) }
 ```
 
+## Resetting Margins
+
+To increase information density and to better align elements, remove default margins from typographic elements
+using the margin utilities.
+
+```html
+<h1 class="m0">No margin</h1>
+<h1 class="mt0">No margin top</h1>
+<h1 class="mb0">No margin bottom</h1>
+```
+
+## Add Spacing
+
+Add spacing around elements using a combination of margin utilities.
+
+```html
+<div class="mxn1">
+  <button class="button m1">Button</button>
+  <button class="button m1">Button</button>
+  <button class="button m1">Button</button>
+</div>
+```
+
+The negative margin utilities also work with padded children.
+
+```html
+<div class="border border-blue">
+  <div class="mxn2">
+    <div class="px2 border border-blue">Padded div</div>
+  </div>
+</div>
+```
+
+## Center Elements
+
+Block elements with a set width can be centered with `.mx-auto`.
+
+```html
+<div>
+  <img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg"
+    width="96"
+    height="96"
+    class="block mx-auto" />
+</div>
+```
+
+## Box
+
+To create a simple box component, use padding along with color utilities.
+
+```html
+<div class="p2 bg-white border rounded">
+  A simple box
+</div>
+```
+
+```html
+<div class="overflow-hidden border rounded">
+  <div class="p2 bold white bg-blue">
+    Panel Header
+  </div>
+  <div class="p2">
+    Panel Body
+  </div>
+  <div class="p2 bg-silver">
+    Panel Footer
+  </div>
+</div>
+```
+
 <span class="red">Margins and padding should never be declared outside of these utilities.</span>
-This is meant to help create consistent rhythm and avoid magic numbers.
+This is meant to help create consistency and avoid magic numbers.
 If, for some reason, the default white space scale does not suit your design,
-customize and extend it before implementation.
+customize and extend it before using it.
+
+For larger scale projects, breakpoint-based responsive white space utilities are available in the `basscss-responsive-white-space` module (not included in the default Basscss).
 
