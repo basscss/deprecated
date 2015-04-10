@@ -1,4 +1,5 @@
-Change typographic styles and defaults with these utilities.
+
+Change typographic weights, styles, and alignment with these utility styles.
 
 ```html
 <p class="bold">Bold</p>
@@ -9,5 +10,6 @@ Change typographic styles and defaults with these utilities.
 <p class="center">Center</p>
 <p class="right-align">Right align</p>
 <p class="justify">Justify Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison.</p>
+<p class="nowrap">Right align</p>
 ```
 
