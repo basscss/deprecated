@@ -1,4 +1,5 @@
-Change the default document flow with display, float, and other utilities.
+
+Change the default document flow with these display, float, and other utilities.
 
 ## Display
 
@@ -13,10 +14,11 @@ To adjust the display of an element, use the `.block`, `.inline`, and `.inline-b
 ## Overflow
 
 To adjust element overflow, use `.overflow-hidden`, `.overflow-scroll`, and `.overflow-auto`. 
+`.overflow-hidden` can also be used to create a new block formatting context or clear floats.
 
 ## Floats
 
-Use `.clearfix`, `.left`, and `.right` to adjust floats.
+Use `.clearfix`, `.left`, and `.right` to clear and set floats.
 
 ```html
 <div class="clearfix border border-blue">
