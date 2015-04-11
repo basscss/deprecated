@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-positions.git"
+    "url": "https://github.com/basscss/positions.git"
   },
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-positions/issues"
+    "url": "https://github.com/basscss/positions/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-positions"
+  "homepage": "https://github.com/basscss/positions"
 }
