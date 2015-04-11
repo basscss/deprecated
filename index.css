@@ -55,8 +55,5 @@
   opacity: .5;
 }
 
-:root {
-  --border-width: 1px;
-  --border-radius: 3px;
-}
+@import 'basscss-defaults';
 

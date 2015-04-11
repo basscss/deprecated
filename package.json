@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/basscss/button-outline/issues"
   },
-  "homepage": "https://github.com/basscss/button-outline"
+  "homepage": "https://github.com/basscss/button-outline",
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
 }
