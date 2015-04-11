@@ -4,7 +4,7 @@
   "description": "Base button styles for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-base-buttons.git"
+    "url": "https://github.com/basscss/base-buttons.git"
   },
   "keywords": [
     "CSS",
@@ -15,7 +15,7 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-base-buttons/issues"
+    "url": "https://github.com/basscss/base-buttons/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-base-buttons"
+  "homepage": "https://github.com/basscss/base-buttons"
 }
