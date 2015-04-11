@@ -13,7 +13,7 @@ To adjust the max-width, set a new value with the `--container-width` custom pro
 </div>
 ```
 
-Float columns using the `.col` style. This sets box-sizing border-box for each column.
+Float columns using the `.col` style. This also sets box-sizing border-box for each column.
 
 ```html
 <div class="clearfix border border-blue">
@@ -50,7 +50,7 @@ All breakpoint-based styles in Basscss follow the same naming convention.
   </table>
 </div>
 
-Only apply the grid from the small breakpoint and up with the `.sm-col` and `.sm-col-6` utilities.
+Apply the grid from the small breakpoint and up with the `.sm-col` and `.sm-col-6` utilities.
 
 ```html
 <div class="clearfix border border-blue">
@@ -59,7 +59,7 @@ Only apply the grid from the small breakpoint and up with the `.sm-col` and `.sm
 </div>
 ```
 
-Add width adjustments for larger breakpoints.
+Add width adjustments for larger breakpoints. Resize the viewport width of the browser to see the effect.
 
 ```html
 <div class="clearfix border border-blue">
@@ -77,7 +77,7 @@ When using negative margin, be sure to compensate for the extra width created
 with a padded parent element or by using overflow hidden.
 Otherwise, horizontal scrolling may occur.
 
-Create gutters with a width of 2 units on the white space scale using `.mxn2` and `.px2`.
+Create gutters with a width of 2 units using `.mxn2` and `.px2`.
 
 ```html
 <div class="clearfix mxn2 border border-blue">
@@ -86,7 +86,7 @@ Create gutters with a width of 2 units on the white space scale using `.mxn2` an
 </div>
 ```
 
-For larger or smaller gutters, use any of the white space utilities.
+For larger or smaller gutters, use any other step on the white space scale.
 
 ```html
 <div class="clearfix mxn1 border border-blue">
@@ -137,6 +137,7 @@ Use the `.mx-auto` class to center columns within their containers.
 
 ## Breakpoint Based Floats
 Column float utilities can be used independently of width utilities to control floating at different breakpoints.
+This example demonstrates a responsive media object.
 
 ```html
 <div class="clearfix border border-blue">
