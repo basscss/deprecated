@@ -31,6 +31,8 @@ button:before,
 
 .button:hover { text-decoration: none }
 
+@import 'basscss-defaults';
+
 :root {
   --button-font-size: inherit;
   --button-font-weight: var(--bold-font-weight, bold);

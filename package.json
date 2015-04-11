@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/basscss/base-buttons/issues"
   },
-  "homepage": "https://github.com/basscss/base-buttons"
+  "homepage": "https://github.com/basscss/base-buttons",
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
 }
