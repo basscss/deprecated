@@ -4,7 +4,7 @@
   "description": "Dark themed form color styles module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-color-forms-dark.git"
+    "url": "https://github.com/basscss/color-forms-dark.git"
   },
   "keywords": [
     "CSS",
@@ -15,9 +15,9 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-color-forms-dark/issues"
+    "url": "https://github.com/basscss/color-forms-dark/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-color-forms-dark",
+  "homepage": "https://github.com/basscss/color-forms-dark",
   "dependencies": {
     "colors.css": "^2.2.0"
   }
