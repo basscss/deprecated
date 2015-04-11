@@ -4,7 +4,7 @@
   "description": "Outline style button color module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-button-outline.git"
+    "url": "https://github.com/basscss/button-outline.git"
   },
   "keywords": [
     "CSS",
@@ -15,7 +15,7 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-button-outline/issues"
+    "url": "https://github.com/basscss/button-outline/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-button-outline"
+  "homepage": "https://github.com/basscss/button-outline"
 }
