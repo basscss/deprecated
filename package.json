@@ -26,5 +26,8 @@
   "basscss": {
     "category": "layout",
     "optional": true
+  },
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
   }
 }
