@@ -4,7 +4,7 @@
   "description": "Border color styles module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-color-borders.git"
+    "url": "https://github.com/basscss/color-borders.git"
   },
   "keywords": [
     "CSS",
@@ -15,7 +15,7 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-color-borders/issues"
+    "url": "https://github.com/basscss/color-borders/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-color-borders"
+  "homepage": "https://github.com/basscss/color-borders"
 }
