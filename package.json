@@ -12,5 +12,8 @@
     "url": "https://github.com/basscss/grid/issues"
   },
   "homepage": "https://github.com/basscss/grid",
-  "style": "index.css"
+  "style": "index.css",
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
 }
