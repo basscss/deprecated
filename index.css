@@ -1,6 +1,6 @@
 /* Basscss Utility Typography */
 
-.bold    { font-weight: var(--bold-font-weight) }
+.bold    { font-weight: var(--bold-font-weight, bold) }
 .regular { font-weight: normal }
 .italic  { font-style: italic }
 .caps    { text-transform: uppercase; letter-spacing: .2em; }
@@ -11,8 +11,4 @@
 .justify      { text-align: justify }
 
 .nowrap { white-space: nowrap }
-
-:root {
-  --bold-font-weight: bold;
-}
 
