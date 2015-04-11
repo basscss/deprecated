@@ -40,10 +40,5 @@
 
 .not-rounded { border-radius: 0 }
 
-:root {
-  --light-gray: #ccc;
-  --border-color: var(--light-gray);
-  --border-width: 1px;
-  --border-radius: 3px;
-}
+@import 'basscss-defaults';
 

@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/basscss/borders/issues"
   },
-  "homepage": "https://github.com/basscss/borders"
+  "homepage": "https://github.com/basscss/borders",
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
 }
