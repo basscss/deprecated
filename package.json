@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/basscss/utility-white-space/issues"
   },
-  "homepage": "https://github.com/basscss/utility-white-space"
+  "homepage": "https://github.com/basscss/utility-white-space",
+  "dependencies": {
+    "basscss-defaults": "^2.0.1"
+  }
 }

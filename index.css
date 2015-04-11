@@ -3,10 +3,5 @@
 @import "./lib/margins";
 @import "./lib/padding";
 
-:root {
-  --space-1: .5rem;
-  --space-2: 1rem;
-  --space-3: 2rem;
-  --space-4: 4rem;
-}
+@import 'basscss-defaults';
 
