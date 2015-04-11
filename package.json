@@ -6,10 +6,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-grid.git"
+    "url": "https://github.com/basscss/grid.git"
   },
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-grid/issues"
+    "url": "https://github.com/basscss/grid/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-grid"
+  "homepage": "https://github.com/basscss/grid",
+  "style": "index.css"
 }
