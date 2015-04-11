@@ -11,8 +11,8 @@ To begin, add the `.flex` class to a parent element.
 This sets the element to `display: flex` and enables a flex context for all direct child elements.
 ```html
 <div class="flex">
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -20,14 +20,18 @@ This sets the element to `display: flex` and enables a flex context for all dire
 To wrap elements, use the `.flex-wrap` utility.
 ```html
 <div class="flex flex-wrap">
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -35,9 +39,9 @@ To wrap elements, use the `.flex-wrap` utility.
 To arrange items vertically, use the `.flex-column` utility.
 ```html
 <div class="flex flex-column">
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
-  <div class="px2 py1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
+  <div class="p1 border border-blue">Hamburger</div>
 </div>
 ```
 
@@ -116,6 +120,19 @@ To align child elements to the bottom, use the `.flex-end` utility.
   <div class="px2">Hot dog</div>
 </div>
 ```
+
+## Justify
+
+To automatically fill the space between child elements, use `.flex-justify`.
+
+```html
+<div class="flex flex-justify">
+  <div class="p1 border border-blue">Burger</div>
+  <div class="p1 border border-blue">Burger</div>
+  <div class="p1 py1 border border-blue">Burger</div>
+</div>
+```
+
 
 ## Responsive Utilities
 To set display flex only at certain breakpoints and up,
