@@ -4,7 +4,7 @@
   "description": "Typography utilities module for Basscss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jxnblk/basscss-utility-typography.git"
+    "url": "https://github.com/basscss/utility-typography.git"
   },
   "keywords": [
     "CSS",
@@ -15,7 +15,7 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jxnblk/basscss-utility-typography/issues"
+    "url": "https://github.com/basscss/utility-typography/issues"
   },
-  "homepage": "https://github.com/jxnblk/basscss-utility-typography"
+  "homepage": "https://github.com/basscss/utility-typography"
 }
