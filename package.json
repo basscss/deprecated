@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/basscss/color-forms-dark",
   "dependencies": {
-    "colors.css": "^2.2.0"
+    "basscss-defaults": "^2.0.1"
   }
 }

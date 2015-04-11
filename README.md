@@ -7,7 +7,7 @@ To style the color, background, and border styles for form fields on dark backgr
 This style works on text inputs, selects, and textareas.
 
 ```html
-<form class="p2 white bg-dark-gray">
+<form class="p2 white bg-black">
   <label>Input</label>
   <input type="text" class="block full-width field-dark">
   <label>Select</label>
@@ -24,7 +24,7 @@ This style works on text inputs, selects, and textareas.
 The `.field-dark` style includes states for disabled and read-only fields, as well as success, warning, and error states.
 
 ```html
-<form class="p2 white bg-dark-gray">
+<form class="p2 white bg-black">
   <label>Normal</label>
   <input type="text" class="block full-width field-dark">
   <label>Disabled</label>

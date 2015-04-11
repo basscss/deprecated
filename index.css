@@ -37,6 +37,5 @@
   border-color: var(--red);
 }
 
-
-@import 'colors.css/myth/variables';
+@import 'basscss-defaults';
 
