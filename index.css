@@ -12,7 +12,7 @@
   transition-property: box-shadow, background-color;
 }
 
-.button-outline:before {
+.button-outline::before {
   content: '';
   display: block;
   position: absolute;
@@ -34,8 +34,8 @@
   box-shadow: none;
 }
 
-.button-outline:hover:before,
-.button-outline:focus:before {
+.button-outline:hover::before,
+.button-outline:focus::before {
   opacity: .125;
 }
 
