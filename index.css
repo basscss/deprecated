@@ -13,6 +13,7 @@
 
 .button-link:hover,
 .button-link:focus {
+  box-shadow: none;
   background-image: linear-gradient(transparent 50%, currentcolor 50%);
 }
 
