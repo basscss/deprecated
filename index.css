@@ -11,7 +11,8 @@
   border-radius: 0;
 }
 
-.button-link:hover {
+.button-link:hover,
+.button-link:focus {
   background-image: linear-gradient(transparent 50%, currentcolor 50%);
 }
 
@@ -23,7 +24,7 @@
 .button-link:focus {
   outline: none;
   border-color: transparent;
-  box-shadow: 0 0 3px, inset 0 -.125em;
+  box-shadow: 0 0 0 2px var(--darken-3);
 }
 
 .button-link:disabled,
