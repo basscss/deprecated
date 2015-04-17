@@ -2,6 +2,8 @@
 
 Link style button color module for [Basscss](http://basscss.com)
 
+This module provides a simple text-only button with link-style underlines on hover.
+
 The `button-link` style inherits color from its parent.
 
 ```html
@@ -12,7 +14,7 @@ The `button-link` style inherits color from its parent.
 </div>
 ```
 
-Use utility styles to change the color.
+Use color utilities to change the color.
 
 ```html
 <button class="button-link">Button</button>
