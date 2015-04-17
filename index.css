@@ -12,7 +12,7 @@
   transition-property: box-shadow;
 }
 
-.button-transparent:before {
+.button-transparent::before {
   content: '';
   display: block;
   position: absolute;
@@ -33,8 +33,8 @@
   box-shadow: none;
 }
 
-.button-transparent:hover:before, 
-.button-transparent:focus:before {
+.button-transparent:hover::before, 
+.button-transparent:focus::before {
   opacity: .09375;
 }
 
@@ -49,8 +49,8 @@
   box-shadow: none;
 }
 
-.button-transparent:active:before,
-.button-transparent.is-active:before {
+.button-transparent:active::before,
+.button-transparent.is-active::before {
   opacity: .0625;
 }
 
