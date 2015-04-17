@@ -7,9 +7,6 @@
   background-color: transparent;
   border-radius: 0;
   border: var(--border-width) solid transparent;
-  transition-duration: .1s;
-  transition-timing-function: ease-out;
-  transition-property: box-shadow;
 }
 
 .button-transparent::before {
@@ -23,9 +20,6 @@
   left: -var(--border-width);
   border: var(--border-width) solid transparent;
   background-color: currentcolor;
-  transition-duration: .1s;
-  transition-timing-function: ease-out;
-  transition-property: opacity;
   opacity: 0;
 }
 
