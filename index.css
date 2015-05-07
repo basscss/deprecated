@@ -2,12 +2,12 @@
 
 button,
 .button {
+  font-family: var(--button-font-family);
   font-size: var(--button-font-size);
   font-weight: var(--button-font-weight);
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
-  box-sizing: border-box;
   line-height: var(--button-line-height);
   padding: var(--button-padding-y) var(--button-padding-x);
   margin: 0;
@@ -17,10 +17,13 @@ button,
   -webkit-appearance: none;
 }
 
+button,
 button::after,
 button::before,
+.button,
 .button::after,
 .button::before {
+  box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -34,6 +37,7 @@ button::before,
 @import 'basscss-defaults';
 
 :root {
+  --button-font-family: inherit;
   --button-font-size: inherit;
   --button-font-weight: var(--bold-font-weight, bold);
   --button-line-height: 1.125rem;
