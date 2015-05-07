@@ -9,6 +9,10 @@ To adjust the display of an element, use the `.block`, `.inline`, and `.inline-b
 <div class="inline">inline</div>
 <div class="inline-block">inline-block</div>
 <a href="#" class="block">block</a>
+<div class="table">
+  <div class="table-cell">table-cell</div>
+  <div class="table-cell">table-cell</div>
+</div>
 ```
 
 ## Overflow
