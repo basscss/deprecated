@@ -11,4 +11,12 @@
 .justify      { text-align: justify }
 
 .nowrap { white-space: nowrap }
+.break-word { word-wrap: break-word }
+
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
