@@ -13,3 +13,27 @@ Change typographic weights, styles, and alignment with these utility styles.
 <p class="nowrap">No wrap</p>
 ```
 
+## Lists
+
+To remove default list styling, use `.list-reset`.
+
+```html
+<ul class="list-reset">
+  <li>List Reset</li>
+  <li>Removes bullets</li>
+  <li>Removes numbers</li>
+  <li>Removes padding</li>
+</ul>
+```
+
+To set lists inline, use utilities.
+
+```html
+<ul class="list-reset">
+  <li class="inline-block mr1">Half-Smoke</li>
+  <li class="inline-block mr1">Kielbasa</li>
+  <li class="inline-block mr1">Bologna</li>
+  <li class="inline-block mr1">Prosciutto</li>
+</ul>
+```
+
