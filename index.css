@@ -22,3 +22,5 @@
 
 .fit { max-width: 100% }
 
+.border-box { box-sizing: border-box }
+
