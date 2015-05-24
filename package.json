@@ -13,6 +13,11 @@
     "url": "https://github.com/basscss/flex-object/issues"
   },
   "homepage": "https://github.com/basscss/flex-object",
+  "keywords": [
+    "css",
+    "oocss",
+    "basscss"
+  ],
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-basswork": "0.0.9",
