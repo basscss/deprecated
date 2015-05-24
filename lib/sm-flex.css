@@ -1,6 +1,5 @@
 
 @media (--breakpoint-sm) {
   .sm-flex { display: flex }
-  .sm-flex > div { box-sizing: border-box }
 }
 

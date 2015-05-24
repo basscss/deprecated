@@ -23,10 +23,6 @@
     "gulp-marked": "^1.0.0",
     "marked-example": "^1.0.2"
   },
-  "basscss": {
-    "category": "layout",
-    "optional": true
-  },
   "dependencies": {
     "basscss-defaults": "^2.0.1"
   }
