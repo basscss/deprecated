@@ -7,10 +7,9 @@
     "url": "https://github.com/basscss/utility-layout.git"
   },
   "keywords": [
-    "CSS",
-    "OOCSS",
-    "Basscss",
-    "Rework"
+    "css",
+    "oocss",
+    "basscss"
   ],
   "author": "Brent Jackson",
   "license": "MIT",
