@@ -16,3 +16,6 @@
 .flex-grow { flex: 1 0 auto }
 .flex-none { flex: none }
 
+.flex-first { order: -1 }
+.flex-last  { order: 99999 }
+
