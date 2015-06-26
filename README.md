@@ -8,7 +8,7 @@ Use `.relative` to create a new stacking context.
 
 ```html
 <div class="relative">
-  <button class="button">Button</button>
+  <button class="btn btn-primary">Button</button>
 </div>
 ```
 
@@ -16,11 +16,11 @@ Use `.absolute` to move elements out of the default document flow.
 
 ```html
 <div class="relative mb4">
-  <button class="button">Button</button>
+  <button class="btn-primary">Button</button>
   <div class="absolute bg-white border rounded">
-    <a href="#" class="block button button-transparent">Dropdown Action</a>
-    <a href="#" class="block button button-transparent">Action</a>
-    <a href="#" class="block button button-transparent">Action</a>
+    <a href="#" class="block btn">Dropdown Action</a>
+    <a href="#" class="block btn">Action</a>
+    <a href="#" class="block btn">Action</a>
   </div>
 </div>
 ```
@@ -29,7 +29,7 @@ Use `.fixed` to position an element relative to the viewport.
 <p class="docs-show" style="display:none">Note: fixed positioning has been disabled here for demonstration only.</p>
 
 ```html
-<button class="fixed button">
+<button class="fixed btn btn-primary">
   Button
 </button>
 ```
