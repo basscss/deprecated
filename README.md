@@ -115,9 +115,9 @@ Add spacing around elements using a combination of margin utilities.
 
 ```html
 <div class="mxn1">
-  <button class="button m1">Button</button>
-  <button class="button m1">Button</button>
-  <button class="button m1">Button</button>
+  <button class="btn btn-primary m1">Button</button>
+  <button class="btn btn-primary m1">Button</button>
+  <button class="btn btn-primary m1">Button</button>
 </div>
 ```
 
