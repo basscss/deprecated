@@ -30,6 +30,8 @@
   border-left-color: var(--border-color);
 }
 
+.no-border { border: 0 }
+
 .rounded { border-radius: var(--border-radius) }
 .circle  { border-radius: 50% }
 
