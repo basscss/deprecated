@@ -18,16 +18,6 @@
     "oocss",
     "basscss"
   ],
-  "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-basswork": "0.0.9",
-    "gulp-rename": "^1.2.0",
-    "gulp-minify-css": "^0.3.11",
-    "gulp-header": "^1.2.2",
-    "gulp-footer": "^1.0.5",
-    "gulp-marked": "^1.0.0",
-    "marked-example": "^1.0.2"
-  },
   "dependencies": {
     "basscss-defaults": "^2.0.1"
   }
