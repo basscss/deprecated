@@ -30,6 +30,6 @@ The `.not-rounded` utility can be used to override default radii.
 This is useful for things like input and button groups.
 
 ```html
-<button class="button not-rounded">Not Rounded</button>
+<button class="btn btn-primary not-rounded">Not Rounded</button>
 ```
 
