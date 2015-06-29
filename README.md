@@ -16,7 +16,7 @@ Use `.absolute` to move elements out of the default document flow.
 
 ```html
 <div class="relative mb4">
-  <button class="btn-primary">Button</button>
+  <button class="btn btn-primary">Button</button>
   <div class="absolute bg-white border rounded">
     <a href="#" class="block btn">Dropdown Action</a>
     <a href="#" class="block btn">Action</a>
