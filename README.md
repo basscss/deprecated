@@ -31,9 +31,9 @@ Use `.clearfix`, `.left`, and `.right` to clear and set floats.
 </div>
 ```
 
-## Widths
+## Max Width
 
-Use `.fit` to set max-width 100%. `.full-width` and `.half-width` set widths to 100% and 50% respectively.
+Use `.fit` to set max-width 100%.
 
 ## Media Object
 Create a media object using basic utilities.
