@@ -16,18 +16,18 @@ To adjust the max-width, set a new value with the `--container-width` custom pro
 Float columns using the `.col` style. This also sets box-sizing border-box for each column.
 
 ```html
-<div class="clearfix border border-blue">
-  <div class="col border border-blue">.col</div>
-  <div class="col border border-blue">.col</div>
+<div class="clearfix border">
+  <div class="col border">.col</div>
+  <div class="col border">.col</div>
 </div>
 ```
 
 Add column width utilities. The total column-width number should add up to 12.
 
 ```html
-<div class="clearfix border border-blue">
-  <div class="col col-6 border border-blue">.col.col-6</div>
-  <div class="col col-6 border border-blue">.col.col-6</div>
+<div class="clearfix border">
+  <div class="col col-6 border">.col.col-6</div>
+  <div class="col col-6 border">.col.col-6</div>
 </div>
 ```
 
@@ -53,18 +53,18 @@ All breakpoint-based styles in Basscss follow the same naming convention.
 Apply the grid from the small breakpoint and up with the `.sm-col` and `.sm-col-6` utilities.
 
 ```html
-<div class="clearfix border border-blue">
-  <div class="sm-col sm-col-6 border border-blue">.sm-col.sm-col-6</div>
-  <div class="sm-col sm-col-6 border border-blue">.sm-col.sm-col-6</div>
+<div class="clearfix border">
+  <div class="sm-col sm-col-6 border">.sm-col.sm-col-6</div>
+  <div class="sm-col sm-col-6 border">.sm-col.sm-col-6</div>
 </div>
 ```
 
 Add width adjustments for larger breakpoints. Resize the viewport width of the browser to see the effect.
 
 ```html
-<div class="clearfix border border-blue">
-  <div class="sm-col sm-col-6 md-col-5 lg-col-4 border border-blue">.sm-col.sm-col-6.md-col-5.lg-col-4</div>
-  <div class="sm-col sm-col-6 md-col-7 lg-col-8 border border-blue">.sm-col.sm-col-6.md-col-7.lg-col-8</div>
+<div class="clearfix border">
+  <div class="sm-col sm-col-6 md-col-5 lg-col-4 border">.sm-col.sm-col-6.md-col-5.lg-col-4</div>
+  <div class="sm-col sm-col-6 md-col-7 lg-col-8 border">.sm-col.sm-col-6.md-col-7.lg-col-8</div>
 </div>
 ```
 
@@ -80,22 +80,22 @@ Otherwise, horizontal scrolling may occur.
 Create gutters with a width of 2 units using `.mxn2` and `.px2`.
 
 ```html
-<div class="clearfix mxn2 border border-blue">
-  <div class="sm-col sm-col-6 md-col-5 lg-col-4 px2"><div class="border border-blue">.px2</div></div>
-  <div class="sm-col sm-col-6 md-col-7 lg-col-8 px2"><div class="border border-blue">.px2</div></div>
+<div class="clearfix mxn2 border">
+  <div class="sm-col sm-col-6 md-col-5 lg-col-4 px2"><div class="border">.px2</div></div>
+  <div class="sm-col sm-col-6 md-col-7 lg-col-8 px2"><div class="border">.px2</div></div>
 </div>
 ```
 
 For larger or smaller gutters, use any other step on the white space scale.
 
 ```html
-<div class="clearfix mxn1 border border-blue">
-  <div class="col col-6 px1"><div class="border border-blue">.px1</div></div>
-  <div class="col col-6 px1"><div class="border border-blue">.px1</div></div>
+<div class="clearfix mxn1 border">
+  <div class="col col-6 px1"><div class="border">.px1</div></div>
+  <div class="col col-6 px1"><div class="border">.px1</div></div>
 </div>
-<div class="clearfix mxn3 border border-blue">
-  <div class="col col-6 px3"><div class="border border-blue">.px3</div></div>
-  <div class="col col-6 px3"><div class="border border-blue">.px3</div></div>
+<div class="clearfix mxn3 border">
+  <div class="col col-6 px3"><div class="border">.px3</div></div>
+  <div class="col col-6 px3"><div class="border">.px3</div></div>
 </div>
 ```
 
@@ -103,12 +103,12 @@ For larger or smaller gutters, use any other step on the white space scale.
 Nest entire grid structures within columns to created nested grids.
 
 ```html
-<div class="clearfix mxn2 border border-blue">
-  <div class="sm-col sm-col-6 md-col-5 lg-col-4 px2"><div class="border border-blue">Unnested</div></div>
+<div class="clearfix mxn2 border">
+  <div class="sm-col sm-col-6 md-col-5 lg-col-4 px2"><div class="border">Unnested</div></div>
   <div class="sm-col sm-col-6 md-col-7 lg-col-8 px2">
     <div class="clearfix mxn2">
-      <div class="col col-6 px2"><div class="border border-blue">Nested</div></div>
-      <div class="col col-6 px2"><div class="border border-blue">Nested</div></div>
+      <div class="col col-6 px2"><div class="border">Nested</div></div>
+      <div class="col col-6 px2"><div class="border">Nested</div></div>
     </div>
   </div>
 </div>
@@ -118,9 +118,9 @@ Nest entire grid structures within columns to created nested grids.
 To reverse the order of columns, use the `.col-right` class to float columns right.
 
 ```html
-<div class="clearfix border border-blue">
-  <div class="col-right col-6 border border-blue">.col-right.col-6</div>
-  <div class="col col-6 border border-blue">.col.col-6</div>
+<div class="clearfix border">
+  <div class="col-right col-6 border">.col-right.col-6</div>
+  <div class="col col-6 border">.col.col-6</div>
 </div>
 ```
 
@@ -128,9 +128,9 @@ To reverse the order of columns, use the `.col-right` class to float columns rig
 Use the `.mx-auto` class to center columns within their containers.
 
 ```html
-<div class="clearfix mxn2 border border-blue">
+<div class="clearfix mxn2 border">
   <div class="col-8 px2 mx-auto">
-    <div class="border border-blue">Centered Column</div>
+    <div class="border">Centered Column</div>
   </div>
 </div>
 ```
@@ -140,9 +140,9 @@ Column float utilities can be used independently of width utilities to control f
 This example demonstrates a responsive media object.
 
 ```html
-<div class="clearfix border border-blue">
-  <div class="sm-col p2 border border-blue">.sm-col</div>
-  <div class="overflow-hidden border border-blue">.overflow-hidden</div>
+<div class="clearfix border">
+  <div class="sm-col p2 border">.sm-col</div>
+  <div class="overflow-hidden border">.overflow-hidden</div>
 </div>
 ```
 
@@ -150,8 +150,8 @@ This example demonstrates a responsive media object.
 Column width utilities can also be used independently to add percentage based widths to any block or inline-block element.
 
 ```html
-<div class="border border-blue">
-  <div class="right sm-col-6 md-col-4 p2 border border-blue">.sm-col-6.md-col-4</div>
+<div class="border">
+  <div class="right sm-col-6 md-col-4 p2 border">.sm-col-6.md-col-4</div>
   <p>Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin.</p>
 </div>
 ```
