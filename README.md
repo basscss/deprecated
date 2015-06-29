@@ -39,7 +39,7 @@ Note: Fixed positioning is notoriously tricky to use well and can lead to inacce
 To anchor to a particular side, use `.top-0`, `.right-0`, `.bottom-0`, or `.left-0`. Margin and padding utilities can be used to space elements apart.
 
 ```html
-<button class="fixed top-0 right-0 m2 button">
+<button class="fixed top-0 right-0 m2 btn btn-primary">
   Button
 </button>
 ```
