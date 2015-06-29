@@ -22,6 +22,7 @@ these utilities use a shorthand naming convention.
       <tr> <td>x</td> <td>X-axis (left and right)</td> </tr>
       <tr> <td>y</td> <td>Y-axis (top and bottom)</td> </tr>
       <tr> <td>n</td> <td>Negative (margin only)</td> </tr>
+      <tr> <td>0</td> <td>0 reset</td> </tr>
       <tr> <td>1</td> <td>--space-1 (default .5rem)</td> </tr>
       <tr> <td>2</td> <td>--space-2 (default 1rem)</td> </tr>
       <tr> <td>3</td> <td>--space-3 (default 2rem)</td> </tr>
@@ -81,6 +82,8 @@ Padding utilities are only available in symmetrical orientations.
 This is to normalize the spacing used around elements and maintain a consistent visual rhythm.
 
 ```css
+.p0  { padding: 0 }
+
 .p1  { padding:       var(--space-1) }
 .py1 { padding-top:   var(--space-1); padding-bottom: var(--space-1) }
 .px1 { padding-left:  var(--space-1); padding-right:  var(--space-1) }
