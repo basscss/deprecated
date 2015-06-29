@@ -35,6 +35,14 @@ Use `.clearfix`, `.left`, and `.right` to clear and set floats.
 
 Use `.fit` to set max-width 100%.
 
+## Box-Sizing Border-Box
+
+Use `.border-box` to set box-sizing border-box per element.
+
+```html
+<div class="col-6 p2 border-box border">.border-box</div>
+```
+
 ## Media Object
 Create a media object using basic utilities.
 
