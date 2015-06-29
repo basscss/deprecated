@@ -3,7 +3,7 @@ Change the default document flow with these display, float, and other utilities.
 
 ## Display
 
-To adjust the display of an element, use the `.block`, `.inline`, and `.inline-block` utilities.
+To adjust the display of an element, use the `.block`, `.inline`, `.inline-block`, `.table`, and `.table-cell` utilities.
 
 ```html
 <div class="inline">inline</div>
