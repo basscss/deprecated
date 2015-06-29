@@ -24,12 +24,12 @@ Remove borders with the `.border-none` utility.
 Utility styles for border radii can be used to style images and other elements.
 
 ```html
-<img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="rounded" width="64" height="64" />
-<img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="circle" width="64" height="64" />
-<img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="rounded-top" width="64" height="64" />
-<img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="rounded-right" width="64" height="64" />
-<img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="rounded-bottom" width="64" height="64" />
-<img src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" class="rounded-left" width="64" height="64" />
+<img class="rounded" src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" width="64" height="64" />
+<img class="circle" src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" width="64" height="64" />
+<img class="rounded-top" src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" width="64" height="64" />
+<img class="rounded-right" src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" width="64" height="64" />
+<img class="rounded-bottom" src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" width="64" height="64" />
+<img class="rounded-left" src="http://d2v52k3cl9vedd.cloudfront.net/assets/images/placeholder-square.svg" width="64" height="64" />
 ```
 
 The `.not-rounded` utility can be used to override default radii.
