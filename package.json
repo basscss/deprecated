@@ -1,6 +1,6 @@
 {
   "name": "basscss-positions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CSS positioning utilities for Basscss",
   "style": "index.css",
   "author": "Brent Jackson",
