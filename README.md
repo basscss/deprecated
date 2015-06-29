@@ -13,6 +13,12 @@ Add borders with these border utilities.
 <div class="p1 m1 border-left bg-lighter-gray">.border-left</div>
 ```
 
+Remove borders with the `.border-none` utility.
+
+```html
+<input type="text" class="border-none" placeholder=".border-none" />
+```
+
 ## Border Radii
 
 Utility styles for border radii can be used to style images and other elements.
