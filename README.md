@@ -6,11 +6,11 @@ This module controls borders and border radii.
 Add borders with these border utilities.
 
 ```html
-<div class="p1 m1 border bg-lighter-gray">.border</div>
-<div class="p1 m1 border-top bg-lighter-gray">.border-top</div>
-<div class="p1 m1 border-right bg-lighter-gray">.border-right</div>
-<div class="p1 m1 border-bottom bg-lighter-gray">.border-bottom</div>
-<div class="p1 m1 border-left bg-lighter-gray">.border-left</div>
+<div class="p1 m1 border bg-silver">.border</div>
+<div class="p1 m1 border-top bg-silver">.border-top</div>
+<div class="p1 m1 border-right bg-silver">.border-right</div>
+<div class="p1 m1 border-bottom bg-silver">.border-bottom</div>
+<div class="p1 m1 border-left bg-silver">.border-left</div>
 ```
 
 Remove borders with the `.border-none` utility.
