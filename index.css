@@ -1,3 +1,4 @@
+/* @deprecated as of release 7.0 */
 /* Basscss Button Solid */
 
 .button {
@@ -34,4 +35,3 @@
   --button-color: white;
   --button-background-color: var(--blue);
 }
-
