@@ -1,3 +1,5 @@
+**This module has been deprecated in favor of basscss-btn-primary**
+
 # Basscss Button Red
 
 Red button color module for Basscss - http://basscss.com
@@ -9,4 +11,3 @@ Red button color module for Basscss - http://basscss.com
   <input type="button" class="button button-red" value="Input Button">
 </div>
 ```
-
