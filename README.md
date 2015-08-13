@@ -1,3 +1,5 @@
+**This module has been deprecated in favor of basscss-btn-primary**
+
 # Basscss Color Buttons
 
 <p class="hide">Button color styles module for Basscss</p>
@@ -49,4 +51,3 @@ For dark backgrounds, use the `.button-nav-dark` style.
   <a href="#!" class="button button-narrow button-nav-dark">Onion Rings</a>
 </div>
 ```
-
