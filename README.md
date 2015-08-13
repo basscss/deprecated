@@ -1,4 +1,4 @@
-**This module has been deprecated in favor of basscss-btn-solid**
+**This module has been deprecated in favor of basscss-btn-primary**
 
 # Basscss Button Light Gray
 
