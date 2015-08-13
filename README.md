@@ -1,3 +1,4 @@
+**This module has been deprecated in favor of basscss-btn-outline**
 
 This module provides a less prominent button style well suited for secondary actions.
 
@@ -29,4 +30,3 @@ Use color utilities to change the color.
 <button class="button-outline mb1 fuchsia">Button</button>
 <button class="button-outline mb1 purple">Button</button>
 ```
-
