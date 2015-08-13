@@ -1,3 +1,5 @@
+**This module has been deprecated in favor of basscss-btn-solid**
+
 # Basscss Button Light Gray
 
 Light gray button color module for Basscss - http://basscss.com
@@ -9,4 +11,3 @@ Light gray button color module for Basscss - http://basscss.com
   <input type="button" class="button button-light-gray" value="Input Button">
 </div>
 ```
-
