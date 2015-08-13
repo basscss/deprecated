@@ -1,3 +1,4 @@
+**This module has been deprecated in favor of basscss-btn**
 
 This module provides a minimal text-only button style well suited for navigation links or icon buttons.
 
@@ -29,4 +30,3 @@ Use color utilities to change the color.
 <button class="button-transparent fuchsia">Button</button>
 <button class="button-transparent purple">Button</button>
 ```
-
