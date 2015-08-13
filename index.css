@@ -1,5 +1,5 @@
-/* @deprecated as of release 7.0 */
 /* Basscss Button Solid */
+/* This module has been deprecated in favor of basscss-btn-primary */
 
 .button {
   color: var(--button-color);

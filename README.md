@@ -1,4 +1,4 @@
-:warning: **This module is deprecated as of release 7.0** :warning:
+** This module has been deprecated in favor of basscss-btn-primary **
 
 This module provides simple, solid button color styles.
 
