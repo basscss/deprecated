@@ -1,4 +1,5 @@
 /* Basscss Button Gray */
+/* This module has been deprecated in favor of basscss-btn-primary */
 
 .button-gray {
   color: white;
@@ -8,7 +9,7 @@
   transition-timing-function: ease-out;
   transition-property: box-shadow, background-color;
 }
-  
+
 .button-gray:hover {
   opacity: .875;
 }
@@ -33,4 +34,3 @@
   --blue: #0076df;
   --border-radius: 3px;
 }
-
