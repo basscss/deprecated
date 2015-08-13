@@ -1,3 +1,4 @@
+**This module has been deprecated in favor of basscss-btn**
 
 Base structural styles and resets for buttons are set in this module.
 All buttons share common padding and height, well suited for tap targets on touchscreen displays, and align with form inputs and selects.
@@ -15,4 +16,3 @@ Button elements have styles applied by default. To style input buttons and links
 Note: adjusting the line-height and padding variables may require adjustments to form element variables to maintain vertical alignment.
 
 Use the color styles in `basscss-color-base`, `basscss-button-outline`, and `basscss-button-transparent` to adjust the appearance.
-
