@@ -1,4 +1,5 @@
 /* Basscss Color Buttons */
+/* This module has been deprecated in favor of basscss-btn-primary */
 
 @import "basscss-button-blue";
 @import "basscss-button-blue-outline";
@@ -26,4 +27,3 @@
   --border-width: 1px;
   --border-radius: 3px;
 }
-
