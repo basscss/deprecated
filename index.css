@@ -1,4 +1,5 @@
 /* Basscss Button Blue Outline */
+/* This module has been deprecated in favor of basscss-btn-primary */
 
 .button-blue-outline {
   color: var(--blue);
@@ -9,7 +10,7 @@
   transition-timing-function: ease-out;
   transition-property: box-shadow, background-color;
 }
-  
+
 .button-blue-outline:hover,
 .button-blue-outline.is-active {
   color: white;
@@ -38,4 +39,3 @@
   --border-radius: 3px;
   --border-width: 1px;
 }
-
