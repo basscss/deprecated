@@ -1,3 +1,5 @@
+**This module has been deprecated**
+
 # Basscss Button Link
 
 Link style button color module for [Basscss](http://basscss.com)
@@ -32,4 +34,3 @@ Use color utilities to change the color.
 <button class="button-link fuchsia">Button</button>
 <button class="button-link purple">Button</button>
 ```
-

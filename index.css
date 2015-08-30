@@ -1,4 +1,5 @@
 /* Basscss Button Link */
+/* This module has been deprecated */
 
 .button-link {
   padding-right: 0;
@@ -32,5 +33,3 @@
 .button-link.is-disabled {
   opacity: .5;
 }
-
-
