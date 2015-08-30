@@ -1,4 +1,5 @@
 /* Basscss Button Solid */
+/* This module has been deprecated in favor of basscss-btn-primary */
 
 .button {
   color: var(--button-color);
@@ -34,4 +35,3 @@
   --button-color: white;
   --button-background-color: var(--blue);
 }
-

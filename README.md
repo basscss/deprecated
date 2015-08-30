@@ -1,3 +1,4 @@
+** This module has been deprecated in favor of basscss-btn-primary **
 
 This module provides simple, solid button color styles.
 
@@ -26,4 +27,3 @@ Or set `--button-background-color` to change the default.
 <button class="button mb1 black bg-darken-3">Button</button>
 <button class="button mb1 bg-darken-4">Button</button>
 ```
-
