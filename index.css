@@ -1,4 +1,5 @@
 /* Basscss Button Red */
+/* This module has been deprecated in favor of basscss-btn-primary */
 
 .button-red {
   color: white;
@@ -8,7 +9,7 @@
   transition-timing-function: ease-out;
   transition-property: box-shadow, background-color;
 }
-  
+
 .button-red:hover {
   opacity: .875;
 }
@@ -32,4 +33,3 @@
   --red: #f95020;
   --border-radius: 3px;
 }
-
