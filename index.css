@@ -1,4 +1,5 @@
 /* Basscss Base Buttons */
+/* This module has been deprecated in favor of basscss-btn */
 
 button,
 .button {
@@ -44,4 +45,3 @@ button::before,
   --button-padding-y: .5rem;
   --button-padding-x: 1rem;
 }
-
