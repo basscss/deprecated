@@ -1,5 +1,7 @@
 # Basscss Table Object
 
+**This module has been deprecated in favor of basscss-utility-layout and basscss-align**
+
 <p class="hide">CSS layout module to vertically center elements for Basscss.</p>
 
 <a href="http://basscss.com" class="hide">basscss.com</a>
