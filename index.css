@@ -8,4 +8,7 @@
 
 @import 'basscss-defaults';
 
+:root {
+  --container-width: 64rem;
+}
 
