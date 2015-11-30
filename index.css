@@ -1,5 +1,9 @@
 /* Basscss Utility Typography */
 
+.font-family-inherit { font-family: inherit }
+.font-size-inherit { font-size: inherit }
+.text-decoration-none { text-decoration: none }
+
 .bold    { font-weight: var(--bold-font-weight, bold) }
 .regular { font-weight: normal }
 .italic  { font-style: italic }
@@ -17,6 +21,9 @@
 .line-height-2 { line-height: var(--line-height-2) }
 .line-height-3 { line-height: var(--line-height-3) }
 .line-height-4 { line-height: var(--line-height-4) }
+
+.list-style-none { list-style: none }
+.underline { text-decoration: underline }
 
 .truncate {
   max-width: 100%;
